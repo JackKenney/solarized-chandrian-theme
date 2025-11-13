@@ -266,7 +266,7 @@ export default class Compiler {
       mainMild: scheme.cyan,
       member: scheme.cyan,
       metadata: scheme.violet,
-      number: scheme.violet,
+      number: scheme.magenta,
       parenthesis: scheme.blue,
       punctuation_important: scheme.textMostIntense,
       punctuation_unimportant: scheme.textMild,
@@ -282,6 +282,7 @@ export default class Compiler {
       tag: scheme.cyan,
       important: scheme.orange,
       variable: scheme.textIntense,
+      variableSpecial: scheme.cyan,
       warn: scheme.yellow,
     };
 

@@ -3,10 +3,10 @@
     "{{yellow}}",
     "{{cyan}}",
     "{{violet}}",
+    "{{orange}}",
+    "{{green}}",
     "{{magenta}}",
     "{{blue}}",
-    "{{green}}",
-    "{{orange}}",
     "{{red}}"
   ],
   "background": "{{background}}",
@@ -20,9 +20,9 @@
   "conflict": "{{red}}",
   "conflict.background": "{{red}}11",
   "conflict.border": "{{red}}22",
-  "created": "{{green}}",
-  "created.background": "{{green}}11",
-  "created.border": "{{green}}22",
+  "created": "{{green}}88",
+  "created.background": "{{green}}44",
+  "created.border": "{{green}}66",
   "deleted": "{{red}}",
   "deleted.background": "{{red}}11",
   "deleted.border": "{{red}}22",
@@ -31,39 +31,39 @@
   "editor.active_line_number": "{{text}}",
   "editor.active_wrap_guide": "{{textMostMild}}",
   "editor.background": "{{backgroundMostIntense}}",
-  "editor.document_highlight.bracket_background": "{{backgroundMild}}",
-  "editor.document_highlight.read_background": "{{backgroundMild}}",
-  "editor.document_highlight.write_background": "{{backgoundMild}}",
+  "editor.document_highlight.bracket_background": "{{violet}}44",
+  "editor.document_highlight.read_background": "{{violet}}55",
+  "editor.document_highlight.write_background": "{{violet}}66",
   "editor.foreground": "{{text}}",
   "editor.gutter.background": "{{backgroundMostIntense}}",
   "editor.highlighted_line.background": "{{backgroundIntense}}",
-  "editor.indent_guide": "{{backgroundMild}}",
-  "editor.indent_guide_active": "{{background}}",
+  "editor.indent_guide": "{{background}}",
+  "editor.indent_guide_active": "{{backgroundMild}}",
   "editor.invisible": "{{textMild}}",
-  "editor.line_number": "{{text}}",
+  "editor.line_number": "{{textMostMild}}",
   "editor.subheader.background": "{{background}}",
   "editor.wrap_guide": "{{textMostMild}}",
   "element.active": "{{textMostIntense}}",
-  "element.background": "{{darkBlue}}",
-  "element.disabled": "{{background}}",
+  "element.background": "{{blue}}88",
+  "element.disabled": "{{blue}}44",
   "element.hover": "{{blue}}22",
-  "element.selected": "{{blue}}22",
-  "elevated_surface.background": "{{background}}",
+  "element.selected": "{{blue}}33",
+  "elevated_surface.background": "{{backgroundIntense}}",
   "error": "{{red}}",
   "error.background": "{{red}}11",
   "error.border": "{{red}}22",
-  "ghost_element.active": "{{textMostIntense}}",
-  "ghost_element.background": "{{backgroundIntense}}",
-  "ghost_element.disabled": "{{blue}}22",
-  "ghost_element.hover": "{{blue}}88",
-  "ghost_element.selected": "{{blue}}",
+  "ghost_element.active": "{{textIntense}}",
+  "ghost_element.background": "{{background}}66",
+  "ghost_element.disabled": "{{blue}}33",
+  "ghost_element.hover": "{{blue}}11",
+  "ghost_element.selected": "{{blue}}22",
   "hidden": "{{textMild}}",
   "hidden.background": "{{background}}",
   "hidden.border": "{{backgroundMild}}",
-  "hint": "{{text}}cc",
-  "hint.background": "{{background}}",
+  "hint": "{{violet}}88",
+  "hint.background": "{{backgroundIntense}}",
   "hint.border": "{{background}}",
-  "icon": "{{red}}",
+  "icon": "{{violet}}",
   "icon.accent": "{{violet}}",
   "icon.disabled": "{{textMostMild}}",
   "icon.muted": "{{textMild}}",
@@ -71,10 +71,20 @@
   "ignored": "{{textMostMild}}",
   "ignored.background": "{{textMostMild}}",
   "ignored.border": "{{textMostMild}}",
-  "info": "{{darkBlue}}",
+  "info": "{{blue}}",
   "info.background": "{{background}}",
   "info.border": "{{backgroundMild}}",
   "link_text.hover": "{{blue}}",
+  "modified": "{{yellow}}DD",
+  "modified.background": "{{yellow}}44",
+  "modified.border": "{{yellow}}22",
+  "pane.focused_border": "{{backgroundMostMild}}",
+  "pane_group.border": "{{backgroundMild}}",
+  "panel.background": "{{backgroundIntense}}",
+  "panel.focused_border": "{{backgroundMild}}",
+  "panel.indent_guide": "{{backgroundMild}}",
+  "panel.indent_guide_active": "{{backgroundMostMild}}",
+  "panel.indent_guide_hover": "{{backgroundMostMild}}",
   "surface.background": "{{backgroundIntense}}",
   "text": "{{text}}",
   "text.muted": "{{text}}",
@@ -84,9 +94,7 @@
   "tab_bar.background": "{{backgroundIntense}}",
   "tab.inactive_background": "{{backgroundIntense}}",
   "tab.active_background": "{{backgroundMostIntense}}",
-  "search.match_background": "{{backgroundIntense}}",
-  "panel.background": "{{background}}",
-  "pane_group.border": "{{backgroundIntense}}",
+  "search.match_background": "{{blue}}44",
   "scrollbar.thumb.background": "{{background}}66",
   "scrollbar.thumb.hover_background": "{{backgroundMostMild}}55",
   "scrollbar.thumb.active_background": "{{backgroundMild}}66",
@@ -113,93 +121,110 @@
   "terminal.ansi.bright_cyan": "{{cyan}}",
   "terminal.ansi.white": "{{white}}DD",
   "terminal.ansi.bright_white": "{{white}}",
-  "modified": "{{yellow}}",
-  "warning": "{{yellow}}",
-  "players": [],
+  "warning": "{{warn}}",
+  "players": [
+    {
+      "background": "{{yellow}}22",
+      "cursor": "{{yellow}}",
+      "selection": "{{yellow}}44"
+    },
+    {
+      "background": "{{orange}}22",
+      "cursor": "{{orange}}",
+      "selection": "{{orange}}44"
+    },
+    {
+      "background": "{{magenta}}22",
+      "cursor": "{{magenta}}",
+      "selection": "{{magenta}}44"
+    }
+  ],
   "syntax": {
     "attribute": {
-      "color": "{{text}}"
+      "color": "{{attributes}}"
     },
     "boolean": {
-      "color": "{{magenta}}"
+      "color": "{{booleans}}"
     },
     "comment": {
-      "color": "{{textMild}}"
+      "color": "{{commentGray}}"
     },
     "comment.doc": {
-      "color": "{{textMild}}"
+      "color": "{{commentGray}}"
     },
     "constant": {
-      "color": "{{magenta}}"
+      "color": "{{constant}}"
     },
     "constructor": {
-      "color": "{{text}}"
+      "color": "{{function}}"
     },
     "embedded": {
       "color": "{{textMild}}"
     },
     "function": {
-      "color": "{{blue}}"
+      "color": "{{function}}"
     },
     "keyword": {
-      "color": "{{yellow}}"
+      "color": "{{key}}"
     },
     "number": {
-      "color": "{{magenta}}"
+      "color": "{{number}}"
     },
     "operator": {
-      "color": "{{yellow}}"
+      "color": "{{structural}}"
     },
     "preproc": {
       "color": "{{textMild}}"
     },
     "property": {
-      "color": "{{violet}}"
+      "color": "{{member}}"
     },
     "punctuation": {
-      "color": "{{text}}BF"
+      "color": "{{punctuation}}"
     },
     "punctuation.bracket": {
-      "color": "{{text}}BF"
+      "color": "{{punctuation_unimportant}}"
     },
     "punctuation.delimiter": {
-      "color": "{{text}}BF"
+      "color": "{{punctuation_unimportant}}"
     },
     "punctuation.list_marker": {
-      "color": "{{text}}BF"
+      "color": "{{punctuation_important}}"
     },
     "punctuation.special": {
-      "color": "{{text}}BF"
+      "color": "{{punctuation_important}}"
     },
     "string": {
-      "color": "{{green}}"
+      "color": "{{string}}"
     },
     "string.escape": {
-      "color": "{{text}}"
+      "color": "{{escape}}"
     },
     "string.regex": {
-      "color": "{{green}}"
+      "color": "{{regex}}"
     },
     "string.special": {
       "color": "{{text}}"
     },
     "string.special.symbol": {
-      "color": "{{text}}"
+      "color": "{{regex}}",
+      "font_style": "italic"
     },
     "tag": {
-      "color": "{{text}}"
+      "color": "{{tag}}"
     },
     "text.literal": {
-      "color": "{{green}}"
+      "color": "{{string}}"
     },
     "type": {
-      "color": "{{violet}}"
+      "color": "{{type}}"
     },
     "variable": {
-      "color": "{{textIntense}}"
+      "color": "{{variable}}"
     },
     "variable.special": {
-      "color": "{{violet}}"
+      "color": "{{variableSpecial}}",
+      "font_style": "italic"
     }
   }
 }
