@@ -1,7 +1,13 @@
+# Changelog
+
+## 2.3.x
+
+- add Zed themes
+
 ## 2.2.x
 
 - bring high-level color words like "function" to top compile level for high-level tuning
-- adjust various colors to bring VSCode and IDEA closer together 
+- adjust various colors to bring VSCode and IDEA closer together
 (to the spirit of the Chandrian theme intentions)
 - add iTerm2 color themes
 

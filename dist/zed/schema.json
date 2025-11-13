@@ -1,6 +1,6 @@
 {
-    "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "title": "Solarized Chandrian Theme",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "ThemeFamilyContent",
     "description": "The content of a serialized theme family.",
     "type": "object",
     "required": [
