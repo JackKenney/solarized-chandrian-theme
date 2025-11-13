@@ -78,10 +78,10 @@
   "modified": "{{yellow}}",
   "modified.background": "{{yellow}}22",
   "modified.border": "{{yellow}}44",
-  "pane.focused_border": "{{backgroundMostMild}}",
+  "pane.focused_border": "{{background}}",
   "pane_group.border": "{{backgroundMild}}",
   "panel.background": "{{backgroundIntense}}",
-  "panel.focused_border": "{{backgroundMild}}",
+  "panel.focused_border": "{{blue}}",
   "panel.indent_guide": "{{backgroundMild}}",
   "panel.indent_guide_active": "{{backgroundMostMild}}",
   "panel.indent_guide_hover": "{{backgroundMostMild}}",
@@ -159,9 +159,9 @@
   "warning.border": "{{warn}}44",
   "scrollbar.track.background": "{{backgroundMostIntense}}",
   "scrollbar.track.border": "{{backgroundIntense}}",
-  "minimap.thumb.background": "{{backgroundMild}}33",
-  "minimap.thumb.hover_background": "{{backgroundMostMild}}55",
-  "minimap.thumb.active_background": "{{backgroundMostMild}}33",
+  "minimap.thumb.background": "{{background}}44",
+  "minimap.thumb.hover_background": "{{backgroundMild}}44",
+  "minimap.thumb.active_background": "{{backgroundMostMild}}44",
   "syntax": {
     "attribute": {
       "color": "{{attributes}}"
