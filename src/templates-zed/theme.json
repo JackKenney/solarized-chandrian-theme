@@ -1,170 +1,205 @@
 {
-  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Solarized Black Chandrian",
-  "appearance": "dark",
-  "style": {
-    "background.appearance": "opaque",
-    "accents": [],
-    "border": "{{textMostMild}}59",
-    "border.variant": "{{textMostMild}}59",
-    "border.focused": "{{backgroundMostMild}}",
-    "border.selected": "{{textMostMild}}59",
-    "border.transparent": "{{textMostMild}}59",
-    "border.disabled": "{{textMostMild}}59",
-    "elevated_surface.background": "{{background}}",
-    "surface.background": "{{background}}",
-    "background": "{{backgroundMostIntense}}",
-    "element.background": "{{darkBlue}}",
-    "element.hover": "{{blue}}22",
-    "element.selected": "{{blue}}22",
-    "drop_target.background": "{{backgroundMostMild}}",
-    "ghost_element.hover": "{{blue}}22",
-    "ghost_element.selected": "{{blue}}22",
-    "text": "{{text}}",
-    "text.muted": "{{text}}",
-    "status_bar.background": "{{background}}",
-    "title_bar.background": "{{backgroundMostIntense}}",
-    "toolbar.background": "{{backgroundMostIntense}}",
-    "tab_bar.background": "{{background}}",
-    "tab.inactive_background": "{{backgroundIntense}}",
-    "tab.active_background": "{{backgroundMostIntense}}",
-    "search.match_background": "{{backgroundIntense}}",
-    "panel.background": "{{background}}",
-    "pane_group.border": "{{backgroundIntense}}",
-    "scrollbar.thumb.background": "{{background}}66",
-    "scrollbar.thumb.hover_background": "{{backgroundMostMild}}55",
-    "scrollbar.thumb.active_background": "{{backgroundMild}}66",
-    "scrollbar.thumb.border": "{{background}}66",
-    "scrollbar.track.background": "{{backgroundMostIntense}}",
-    "scrollbar.track.border": "{{background}}",
-    "minimap.thumb.background": "{{backgroundMild}}33",
-    "minimap.thumb.hover_background": "{{backgroundMostMild}}55",
-    "minimap.thumb.active_background": "{{backgroundMostMild}}33",
-    "editor.foreground": "{{text}}",
-    "editor.background": "{{backgroundMostIntense}}",
-    "editor.gutter.background": "{{backgroundMostIntense}}",
-    "editor.active_line.background": "{{backgroundIntense}}",
-    "editor.line_number": "{{text}}",
-    "editor.active_line_number": "{{text}}",
-    "editor.wrap_guide": "{{textMostMild}}59",
-    "editor.active_wrap_guide": "{{textMostMild}}59",
-    "editor.document_highlight.bracket_background": "{{backgroundMild}}",
-    "terminal.background": "{{backgroundMostIntense}}",
-    "terminal.ansi.black": "{{text}}",
-    "terminal.ansi.bright_black": "{{text}}",
-    "terminal.ansi.red": "{{red}}DD",
-    "terminal.ansi.bright_red": "{{red}}",
-    "terminal.ansi.green": "{{green}}DD",
-    "terminal.ansi.bright_green": "{{green}}",
-    "terminal.ansi.yellow": "{{yellow}}DD",
-    "terminal.ansi.bright_yellow": "{{yellow}}",
-    "terminal.ansi.blue": "{{blue}}DD",
-    "terminal.ansi.bright_blue": "{{blue}}",
-    "terminal.ansi.magenta": "{{magenta}}DD",
-    "terminal.ansi.bright_magenta": "{{magenta}}",
-    "terminal.ansi.cyan": "{{cyan}}DD",
-    "terminal.ansi.bright_cyan": "{{cyan}}",
-    "terminal.ansi.white": "{{white}}DD",
-    "terminal.ansi.bright_white": "{{white}}",
-    "link_text.hover": "{{blue}}",
-    "conflict": "{{red}}",
-    "created": "{{green}}",
-    "deleted": "{{red}}",
-    "error": "{{red}}",
-    "hidden": "{{text}}",
-    "hint": "{{text}}cc",
-    "ignored": "{{textMostMild}}",
-    "info": "{{blue}}",
-    "info.background": "{{background}}",
-    "info.border": "{{backgroundMild}}",
-    "modified": "{{yellow}}",
-    "warning": "{{yellow}}",
-    "players": [],
-    "syntax": {
-      "attribute": {
-        "color": "{{text}}"
-      },
-      "boolean": {
-        "color": "{{magenta}}"
-      },
-      "comment": {
-        "color": "{{textMild}}"
-      },
-      "comment.doc": {
-        "color": "{{textMild}}"
-      },
-      "constant": {
-        "color": "{{magenta}}"
-      },
-      "constructor": {
-        "color": "{{text}}"
-      },
-      "embedded": {
-        "color": "{{textMild}}"
-      },
-      "function": {
-        "color": "{{blue}}"
-      },
-      "keyword": {
-        "color": "{{yellow}}"
-      },
-      "number": {
-        "color": "{{magenta}}"
-      },
-      "operator": {
-        "color": "{{yellow}}"
-      },
-      "preproc": {
-        "color": "{{textMild}}"
-      },
-      "property": {
-        "color": "{{violet}}"
-      },
-      "punctuation": {
-        "color": "{{text}}BF"
-      },
-      "punctuation.bracket": {
-        "color": "{{text}}BF"
-      },
-      "punctuation.delimiter": {
-        "color": "{{text}}BF"
-      },
-      "punctuation.list_marker": {
-        "color": "{{text}}BF"
-      },
-      "punctuation.special": {
-        "color": "{{text}}BF"
-      },
-      "string": {
-        "color": "{{green}}"
-      },
-      "string.escape": {
-        "color": "{{text}}"
-      },
-      "string.regex": {
-        "color": "{{green}}"
-      },
-      "string.special": {
-        "color": "{{text}}"
-      },
-      "string.special.symbol": {
-        "color": "{{text}}"
-      },
-      "tag": {
-        "color": "{{text}}"
-      },
-      "text.literal": {
-        "color": "{{green}}"
-      },
-      "type": {
-        "color": "{{violet}}"
-      },
-      "variable": {
-        "color": "{{textIntense}}"
-      },
-      "variable.special": {
-        "color": "{{violet}}"
-      }
+  "accents": [
+    "{{yellow}}",
+    "{{cyan}}",
+    "{{violet}}",
+    "{{magenta}}",
+    "{{blue}}",
+    "{{green}}",
+    "{{orange}}",
+    "{{red}}"
+  ],
+  "background": "{{background}}",
+  "background.appearance": "opaque",
+  "border": "{{textMostMild}}",
+  "border.disabled": "{{textMostMild}}",
+  "border.focused": "{{textMild}}",
+  "border.selected": "{{text}}",
+  "border.transparent": "{{textMostMild}}88",
+  "border.variant": "{{textMostMild}}",
+  "conflict": "{{red}}",
+  "conflict.background": "{{red}}11",
+  "conflict.border": "{{red}}22",
+  "created": "{{green}}",
+  "created.background": "{{green}}11",
+  "created.border": "{{green}}22",
+  "deleted": "{{red}}",
+  "deleted.background": "{{red}}11",
+  "deleted.border": "{{red}}22",
+  "drop_target.background": "{{backgroundMostMild}}",
+  "editor.active_line.background": "{{backgroundIntense}}",
+  "editor.active_line_number": "{{text}}",
+  "editor.active_wrap_guide": "{{textMostMild}}",
+  "editor.background": "{{backgroundMostIntense}}",
+  "editor.document_highlight.bracket_background": "{{backgroundMild}}",
+  "editor.document_highlight.read_background": "{{backgroundMild}}",
+  "editor.document_highlight.write_background": "{{backgoundMild}}",
+  "editor.foreground": "{{text}}",
+  "editor.gutter.background": "{{backgroundMostIntense}}",
+  "editor.highlighted_line.background": "{{backgroundIntense}}",
+  "editor.indent_guide": "{{backgroundMild}}",
+  "editor.indent_guide_active": "{{background}}",
+  "editor.invisible": "{{textMild}}",
+  "editor.line_number": "{{text}}",
+  "editor.subheader.background": "{{background}}",
+  "editor.wrap_guide": "{{textMostMild}}",
+  "element.active": "{{textMostIntense}}",
+  "element.background": "{{darkBlue}}",
+  "element.disabled": "{{background}}",
+  "element.hover": "{{blue}}22",
+  "element.selected": "{{blue}}22",
+  "elevated_surface.background": "{{background}}",
+  "error": "{{red}}",
+  "error.background": "{{red}}11",
+  "error.border": "{{red}}22",
+  "ghost_element.active": "{{textMostIntense}}",
+  "ghost_element.background": "{{backgroundIntense}}",
+  "ghost_element.disabled": "{{blue}}22",
+  "ghost_element.hover": "{{blue}}88",
+  "ghost_element.selected": "{{blue}}",
+  "hidden": "{{textMild}}",
+  "hidden.background": "{{background}}",
+  "hidden.border": "{{backgroundMild}}",
+  "hint": "{{text}}cc",
+  "hint.background": "{{background}}",
+  "hint.border": "{{background}}",
+  "icon": "{{red}}",
+  "icon.accent": "{{violet}}",
+  "icon.disabled": "{{textMostMild}}",
+  "icon.muted": "{{textMild}}",
+  "icon.placeholder": "{{textMild}}",
+  "ignored": "{{textMostMild}}",
+  "ignored.background": "{{textMostMild}}",
+  "ignored.border": "{{textMostMild}}",
+  "info": "{{darkBlue}}",
+  "info.background": "{{background}}",
+  "info.border": "{{backgroundMild}}",
+  "link_text.hover": "{{blue}}",
+  "surface.background": "{{backgroundIntense}}",
+  "text": "{{text}}",
+  "text.muted": "{{text}}",
+  "status_bar.background": "{{background}}",
+  "title_bar.background": "{{backgroundMostIntense}}",
+  "toolbar.background": "{{backgroundMostIntense}}",
+  "tab_bar.background": "{{backgroundIntense}}",
+  "tab.inactive_background": "{{backgroundIntense}}",
+  "tab.active_background": "{{backgroundMostIntense}}",
+  "search.match_background": "{{backgroundIntense}}",
+  "panel.background": "{{background}}",
+  "pane_group.border": "{{backgroundIntense}}",
+  "scrollbar.thumb.background": "{{background}}66",
+  "scrollbar.thumb.hover_background": "{{backgroundMostMild}}55",
+  "scrollbar.thumb.active_background": "{{backgroundMild}}66",
+  "scrollbar.thumb.border": "{{background}}66",
+  "scrollbar.track.background": "{{backgroundMostIntense}}",
+  "scrollbar.track.border": "{{background}}",
+  "minimap.thumb.background": "{{backgroundMild}}33",
+  "minimap.thumb.hover_background": "{{backgroundMostMild}}55",
+  "minimap.thumb.active_background": "{{backgroundMostMild}}33",
+  "terminal.background": "{{backgroundMostIntense}}",
+  "terminal.ansi.black": "{{text}}",
+  "terminal.ansi.bright_black": "{{text}}",
+  "terminal.ansi.red": "{{red}}DD",
+  "terminal.ansi.bright_red": "{{red}}",
+  "terminal.ansi.green": "{{green}}DD",
+  "terminal.ansi.bright_green": "{{green}}",
+  "terminal.ansi.yellow": "{{yellow}}DD",
+  "terminal.ansi.bright_yellow": "{{yellow}}",
+  "terminal.ansi.blue": "{{blue}}DD",
+  "terminal.ansi.bright_blue": "{{blue}}",
+  "terminal.ansi.magenta": "{{magenta}}DD",
+  "terminal.ansi.bright_magenta": "{{magenta}}",
+  "terminal.ansi.cyan": "{{cyan}}DD",
+  "terminal.ansi.bright_cyan": "{{cyan}}",
+  "terminal.ansi.white": "{{white}}DD",
+  "terminal.ansi.bright_white": "{{white}}",
+  "modified": "{{yellow}}",
+  "warning": "{{yellow}}",
+  "players": [],
+  "syntax": {
+    "attribute": {
+      "color": "{{text}}"
+    },
+    "boolean": {
+      "color": "{{magenta}}"
+    },
+    "comment": {
+      "color": "{{textMild}}"
+    },
+    "comment.doc": {
+      "color": "{{textMild}}"
+    },
+    "constant": {
+      "color": "{{magenta}}"
+    },
+    "constructor": {
+      "color": "{{text}}"
+    },
+    "embedded": {
+      "color": "{{textMild}}"
+    },
+    "function": {
+      "color": "{{blue}}"
+    },
+    "keyword": {
+      "color": "{{yellow}}"
+    },
+    "number": {
+      "color": "{{magenta}}"
+    },
+    "operator": {
+      "color": "{{yellow}}"
+    },
+    "preproc": {
+      "color": "{{textMild}}"
+    },
+    "property": {
+      "color": "{{violet}}"
+    },
+    "punctuation": {
+      "color": "{{text}}BF"
+    },
+    "punctuation.bracket": {
+      "color": "{{text}}BF"
+    },
+    "punctuation.delimiter": {
+      "color": "{{text}}BF"
+    },
+    "punctuation.list_marker": {
+      "color": "{{text}}BF"
+    },
+    "punctuation.special": {
+      "color": "{{text}}BF"
+    },
+    "string": {
+      "color": "{{green}}"
+    },
+    "string.escape": {
+      "color": "{{text}}"
+    },
+    "string.regex": {
+      "color": "{{green}}"
+    },
+    "string.special": {
+      "color": "{{text}}"
+    },
+    "string.special.symbol": {
+      "color": "{{text}}"
+    },
+    "tag": {
+      "color": "{{text}}"
+    },
+    "text.literal": {
+      "color": "{{green}}"
+    },
+    "type": {
+      "color": "{{violet}}"
+    },
+    "variable": {
+      "color": "{{textIntense}}"
+    },
+    "variable.special": {
+      "color": "{{violet}}"
     }
   }
 }

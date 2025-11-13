@@ -49,8 +49,7 @@ export default class Compiler {
     const theme = {
       name: "Solarized Chandrian",
       description:
-        "A higher-contrast version of solarized for ease of reading.\
-        Available in black, dark blue, and tan.",
+        "A higher-contrast version of solarized for ease of reading. Available in black, dark blue, and tan.",
       author: "Jack Kenney",
       themes: [],
     };
