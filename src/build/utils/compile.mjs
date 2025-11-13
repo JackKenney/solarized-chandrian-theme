@@ -47,7 +47,10 @@ export default class Compiler {
 
   compileZed = () => {
     const theme = {
-      name: `Solarized Chandrian`,
+      name: "Solarized Chandrian",
+      description:
+        "A higher-contrast version of solarized for ease of reading.\
+        Available in black, dark blue, and tan.",
       author: "Jack Kenney",
       themes: [],
     };
@@ -62,9 +65,11 @@ export default class Compiler {
 
       base.style = this.fillTemplateAsObject(colors, paths.ZED_TEMPLATES);
 
-      const outputFileName = this.outputFileName(scheme);
-      this.writeOutputFile(base, paths.ZED_OUTPUT_PATH, outputFileName, "json");
+      theme.themes.push(base);
     });
+
+    const outputFileName = "solarized-chandrian";
+    this.writeOutputFile(theme, paths.ZED_OUTPUT_PATH, outputFileName, "json");
   };
 
   compileIDEA = () => {

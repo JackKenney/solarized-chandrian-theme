@@ -14,6 +14,6 @@ export const ITERM2_TEMPLATES = `${SRC}/templates-iterm2`;
 export const GENERAL_STYLES_FOLDER = `${VSCODE_TEMPLATES}/editor-colors`;
 export const CODE_STYLES_FOLDER = `${VSCODE_TEMPLATES}/token-colors`;
 export const VSCODE_OUTPUT_PATH = path.resolve(ROOT, "dist", "code");
-export const ZED_OUTPUT_PATH = "/Users/jackkenney/.config/zed/themes";
+export const ZED_OUTPUT_PATH = path.resolve(ROOT, "dist", "zed");//"/Users/jackkenney/.config/zed/themes";
 export const IDEA_OUTPUT_PATH = path.resolve(ROOT, "dist", "idea");
 export const ITERM2_OUTPUT_PATH = path.resolve(ROOT, "dist", "iterm2");

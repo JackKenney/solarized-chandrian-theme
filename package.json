@@ -11,7 +11,7 @@
 		"code-package": "vsce package",
 		"code-publish": "vsce package && vsce publish",
 		"code-test-install": "npm run compile && vsce package && code --install-extension solarized-chandrian-$(node -pe 'require(`./package.json`).version').vsix",
-		"zed-validate": "ajv validate -s dist/zed/.json -d theme.json"
+		"zed-validate": "ajv validate -s dist/zed/schema.json -d dist/zed/solarized-chandrian.json"
 	},
 	"icon": "icon.png",
 	"galleryBanner": {
