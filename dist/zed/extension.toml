@@ -1,0 +1,7 @@
+id = "solarized-chandrian"
+name = "Solarized Chandrian Theme"
+version = "1.0.0"
+schema_version = 1
+authors = ["Jack Kenney <jack@kenney.dev>"]
+description = "Solarized Chandrian theme for Zed"
+repository = "https://github.com/jackkenney/solarized-chandrian-theme"
