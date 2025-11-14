@@ -164,10 +164,10 @@
   "minimap.thumb.active_background": "{{backgroundMostMild}}44",
   "syntax": {
     "attribute": {
-      "color": "{{attributes}}"
+      "color": "{{yellow}}"
     },
     "boolean": {
-      "color": "{{booleans}}"
+      "color": "{{magenta}}"
     },
     "comment": {
       "color": "{{commentGray}}"
@@ -176,78 +176,115 @@
       "color": "{{commentGray}}"
     },
     "constant": {
-      "color": "{{constant}}"
+      "color": "{{magenta}}"
     },
     "constructor": {
-      "color": "{{function}}"
+      "color": "{{blue}}"
     },
     "embedded": {
       "color": "{{textMild}}"
     },
+    "emphasis": {
+      "color": "{{textIntense}}"
+    },
+    "emphasis.strong": {
+      "color": "{{textMostIntense}}"
+    },
+    "enum": {
+      "color": "{{magenta}}"
+    },
     "function": {
-      "color": "{{function}}"
+      "color": "{{blue}}"
+    },
+    "hint": {
+      "color": "{{violet}}"
     },
     "keyword": {
-      "color": "{{key}}"
+      "color": "{{yellow}}"
+    },
+    "label": {
+      "color": "{{cyan}}"
+    },
+    "link_text": {
+      "color": "{{blue}}"
+    },
+    "link_uri": {
+      "color": "{{blue}}"
     },
     "number": {
-      "color": "{{number}}"
+      "color": "{{magenta}}"
     },
     "operator": {
-      "color": "{{structural}}"
+      "color": "{{yellow}}"
+    },
+    "predictive": {
+      "color": "{{violet}}88"
     },
     "preproc": {
       "color": "{{textMild}}"
     },
+    "primary": {
+      "color": "{{text}}"
+    },
     "property": {
-      "color": "{{member}}"
+      "color": "{{cyan}}"
     },
     "punctuation": {
-      "color": "{{punctuation}}"
+      "color": "{{text}}"
     },
     "punctuation.bracket": {
-      "color": "{{punctuation_unimportant}}"
+      "color": "{{yellow}}"
     },
     "punctuation.delimiter": {
-      "color": "{{punctuation_unimportant}}"
+      "color": "{{textMild}}"
     },
     "punctuation.list_marker": {
-      "color": "{{punctuation_important}}"
+      "color": "{{textMostIntense}}"
     },
     "punctuation.special": {
-      "color": "{{punctuation_important}}"
+      "color": "{{yellow}}"
     },
     "string": {
-      "color": "{{string}}"
+      "color": "{{green}}"
     },
     "string.escape": {
-      "color": "{{escape}}"
+      "color": "{{yellow}}",
+      "font_style": "italic"
     },
     "string.regex": {
-      "color": "{{regex}}"
+      "color": "{{yellow}}"
     },
     "string.special": {
       "color": "{{text}}"
     },
     "string.special.symbol": {
-      "color": "{{regex}}",
+      "color": "{{yellow}}",
       "font_style": "italic"
     },
     "tag": {
-      "color": "{{tag}}"
+      "color": "{{yellow}}"
+    },
+    "tag.doctype": {
+      "color": "{{violet}}"
     },
     "text.literal": {
-      "color": "{{string}}"
+      "color": "{{text}}"
+    },
+    "title": {
+      "color": "{{textIntense}}"
     },
     "type": {
-      "color": "{{type}}"
+      "color": "{{violet}}"
     },
     "variable": {
-      "color": "{{variable}}"
+      "color": "{{textMostIntense}}"
     },
     "variable.special": {
-      "color": "{{variableSpecial}}",
+      "color": "{{yellow}}",
       "font_style": "italic"
+    },
+    "variant": {
+      "color": "{{blue}}"
     }
   }
 }
