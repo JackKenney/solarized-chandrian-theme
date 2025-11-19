@@ -287,6 +287,9 @@
           "variable": {
             "color": "#eee8d5"
           },
+          "variable.builtin": {
+            "color": "#F0A000"
+          },
           "variable.special": {
             "color": "#F0A000",
             "font_style": "italic"
@@ -581,6 +584,9 @@
           "variable": {
             "color": "#fdf6e3"
           },
+          "variable.builtin": {
+            "color": "#FFA000"
+          },
           "variable.special": {
             "color": "#FFA000",
             "font_style": "italic"
@@ -874,6 +880,9 @@
           },
           "variable": {
             "color": "#102530"
+          },
+          "variable.builtin": {
+            "color": "#875B10"
           },
           "variable.special": {
             "color": "#875B10",

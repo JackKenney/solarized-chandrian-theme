@@ -279,6 +279,9 @@
     "variable": {
       "color": "{{textMostIntense}}"
     },
+    "variable.builtin": {
+      "color": "{{yellow}}"
+    },
     "variable.special": {
       "color": "{{yellow}}",
       "font_style": "italic"
