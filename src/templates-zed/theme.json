@@ -179,7 +179,7 @@
       "color": "{{magenta}}"
     },
     "constructor": {
-      "color": "{{blue}}"
+      "color": "{{violet}}"
     },
     "embedded": {
       "color": "{{textMild}}"
