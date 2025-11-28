@@ -186,6 +186,9 @@
           "constant": {
             "color": "#FF60C0"
           },
+          "constant.builtin": {
+            "color": "#FF60C0"
+          },
           "constructor": {
             "color": "#A0A0F4"
           },
@@ -483,6 +486,9 @@
           "constant": {
             "color": "#FF60B0"
           },
+          "constant.builtin": {
+            "color": "#FF60B0"
+          },
           "constructor": {
             "color": "#B0A0FF"
           },
@@ -778,6 +784,9 @@
             "color": "#073642"
           },
           "constant": {
+            "color": "#B310A5"
+          },
+          "constant.builtin": {
             "color": "#B310A5"
           },
           "constructor": {

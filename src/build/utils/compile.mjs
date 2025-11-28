@@ -213,10 +213,10 @@ export default class Compiler {
     ];
 
     const extraColors = basicColorNames.reduce((accum, colorName) => {
-      const bottom = scheme["backgroundMostIntense"];
-      const top = scheme[colorName];
+      const background = scheme["backgroundMostIntense"];
+      const foreground = scheme[colorName];
       const key = colorName + "Background";
-      accum[key] = this.mixColors(bottom, top, 0.2); // TODO: fine tune this
+      accum[key] = this.mixColors(background, foreground, 0.2); // TODO: fine tune this
       return accum;
     }, {});
 
@@ -289,14 +289,14 @@ export default class Compiler {
     return Object.assign(scheme, joiner);
   };
 
-  mixColors = (bottom, top, alpha) => {
+  mixColors = (background, foreground, alpha) => {
     const starts = [1, 3, 5]; // skip hashtag
     const color = starts.reduce(
       (string, start) =>
         string +
         Math.floor(
-          parseInt(bottom.substr(start, 2), 16) * (1 - alpha) +
-            parseInt(top.substr(start, 2), 16) * alpha
+          parseInt(background.substr(start, 2), 16) * (1 - alpha) +
+            parseInt(foreground.substr(start, 2), 16) * alpha
         ).toString(16),
       ""
     );

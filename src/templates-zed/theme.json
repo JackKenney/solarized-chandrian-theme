@@ -178,6 +178,9 @@
     "constant": {
       "color": "{{magenta}}"
     },
+    "constant.builtin": {
+      "color": "{{magenta}}"
+    },
     "constructor": {
       "color": "{{violet}}"
     },
