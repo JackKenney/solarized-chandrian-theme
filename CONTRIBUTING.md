@@ -12,7 +12,7 @@ npm install
 Bump version in `package.json`.
 
 ```
-npm run test-install
+npm run code-test-install
 ```
 
 and reload window

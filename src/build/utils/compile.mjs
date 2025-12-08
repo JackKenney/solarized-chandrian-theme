@@ -155,7 +155,7 @@ export default class Compiler {
             const bottom = scheme["backgroundMostIntense"];
             const top = scheme[colorName];
             const key = colorName + "Background";
-            accum[key] = this.mixColors(bottom, top, 0.30); // TODO: fine tune this
+            accum[key] = this.mixColors(bottom, top, 0.20); // TODO: fine tune this
             return accum;
         }, {});
 
