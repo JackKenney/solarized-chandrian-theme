@@ -4107,8 +4107,8 @@
         <option name="STRING_CONTENT_INDENT_GUIDE" value="{greenBackground}" />
         <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor"
             value="{backgroundMostIntense}" />
-        <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="{backgroundMostMild}" />
-        <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="{backgroundIntense}" />
+        <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="{backgroundMostMild}8C" />
+        <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="{backgroundIntense}1A" />
         <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="{backgroundMostIntense}" />
         <option name="ScrollBar.Mac.Transparent.thumbColor" value="{backgroundMild}" />
         <option name="ScrollBar.Mac.Transparent.trackColor" value="{backgroundIntense}" />
@@ -4118,10 +4118,10 @@
         <option name="ScrollBar.Mac.thumbBorderColor" value="{backgroundMostIntense}" />
         <option name="ScrollBar.Mac.thumbColor" value="{backgroundMild}" />
         <option name="ScrollBar.Mac.trackColor" value="{backgroundIntense}" />
-        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="{backgroundMostMild}" />
+        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="{backgroundMostMild}59" />
         <option name="ScrollBar.Transparent.hoverThumbColor" value="{backgroundMostMild}" />
-        <option name="ScrollBar.Transparent.hoverTrackColor" value="{backgroundIntense}" />
-        <option name="ScrollBar.Transparent.thumbBorderColor" value="{backgroundMostIntense}" />
+        <option name="ScrollBar.Transparent.hoverTrackColor" value="{backgroundIntense}1A" />
+        <option name="ScrollBar.Transparent.thumbBorderColor" value="{backgroundMostIntense}47" />
         <option name="ScrollBar.Transparent.thumbColor" value="{backgroundMild}" />
         <option name="ScrollBar.Transparent.trackColor" value="{backgroundIntense}" />
         <option name="ScrollBar.background" value="{backgroundMostIntense}" />

@@ -244,7 +244,7 @@
     },
     "Label": {
       "errorForeground": "{{red}}",
-      "infoForeground": "{{backgroundMild}}",
+      "infoForeground": "{{textMostMild}}BB",
       "selectedForeground": "{{text}}",
       "successForeground": "{{cyan}}"
     },
@@ -294,7 +294,7 @@
       "borderColor": "{{backgroundMild}}"
     },
     "Notification": {
-      "borderColor": "{{magentaBackground}}",
+      "borderColor": "{{backgroundMild}}",
       "errorBackground": "{{redBackground}}",
       "errorBorderColor": "{{red}}",
       "errorForeground": "{{text}}",
@@ -304,8 +304,8 @@
         "innerBorderColor": "{{background}}"
       },
       "ToolWindow": {
-        "errorBackground": "{{backround}}",
-        "errorBorderColor": "{{backroundIntense}}",
+        "errorBackground": "{{background}}",
+        "errorBorderColor": "{{backgroundIntense}}",
         "errorForeground": "{{text}}",
         "informativeBackground": "{{backgroundIntense}}",
         "informativeBorderColor": "{{green}}",
@@ -313,6 +313,12 @@
         "warningBackground": "{{yellowBackground}}",
         "warningBorderColor": "{{yellow}}",
         "warningForeground": "{{text}}"
+      }
+    },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "background": "{{backgroundMild}}",
+        "hoverBackground": "{{background}}"
       }
     },
     "OptionPane": {
@@ -399,35 +405,35 @@
     "RadioButtonMenuItem": {},
     "ScrollBar": {
       "background": "{{backgroundMostIntense}}",
-      "hoverThumbBorderColor": "{{backgroundIntense}}",
-      "hoverThumbColor": "{{backgroundMild}}",
-      "hoverTrackColor": "",
+      "hoverThumbBorderColor": "{{backgroundMostMild}}",
+      "hoverThumbColor": "{{backgroundMostMild}}",
+      "hoverTrackColor": "{{backgroundIntense}}",
       "Mac": {
         "hoverThumbBorderColor": "{{backgroundMostIntense}}",
-        "hoverThumbColor": "{{backgroundIntense}}",
-        "hoverTrackColor": "",
+        "hoverThumbColor": "{{backgroundMostMild}}",
+        "hoverTrackColor": "{{backgroundIntense}}",
         "thumbBorderColor": "{{backgroundMostIntense}}",
-        "thumbColor": "{{backgroundIntense}}",
-        "trackColor": "",
+        "thumbColor": "{{backgroundMild}}",
+        "trackColor": "{{backgroundIntense}}",
         "Transparent": {
           "hoverThumbBorderColor": "{{backgroundMostIntense}}",
-          "hoverThumbColor": "{{backgroundMild}}8C",
-          "hoverTrackColor": "{{backgroundMild}}1A",
-          "thumbBorderColor": "",
-          "thumbColor": "",
-          "trackColor": ""
+          "hoverThumbColor": "{{backgroundMostMild}}8C",
+          "hoverTrackColor": "{{backgroundIntense}}1A",
+          "thumbBorderColor": "{{backgroundMostIntense}}",
+          "thumbColor": "{{backgroundMild}}",
+          "trackColor": "{{backgroundIntense}}"
         }
       },
-      "thumbBorderColor": "{{backgroundIntense}}",
-      "thumbColor": "{{background}}",
-      "trackColor": "",
+      "thumbBorderColor": "{{backgroundMostIntense}}",
+      "thumbColor": "{{backgroundMild}}",
+      "trackColor": "{{backgroundIntense}}",
       "Transparent": {
-        "hoverThumbBorderColor": "{{backgroundIntense}}59",
-        "hoverThumbColor": "{{backgroundMild}}",
-        "hoverTrackColor": "{{backgroundMild}}1A",
-        "thumbBorderColor": "{{backgroundIntense}}47",
-        "thumbColor": "{{background}}",
-        "trackColor": ""
+        "hoverThumbBorderColor": "{{backgroundMostMild}}59",
+        "hoverThumbColor": "{{backgroundMostMild}}",
+        "hoverTrackColor": "{{backgroundIntense}}1A",
+        "thumbBorderColor": "{{backgroundMostIntense}}47",
+        "thumbColor": "{{backgroundMild}}",
+        "trackColor": "{{backgroundIntense}}"
       }
     },
     "ScrollPane": {},
@@ -497,7 +503,9 @@
     },
     "StatusBar": {
       "borderColor": "{{backgroundIntense}}",
-      "hoverBackground": "{{background}}"
+      "Widget": {
+        "hoverBackground": "{{background}}"
+      }
     },
     "TabbedPane": {
       "contentAreaColor": "{{backgroundMostIntense}}",
