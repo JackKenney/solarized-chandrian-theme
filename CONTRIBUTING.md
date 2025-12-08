@@ -63,3 +63,7 @@ NOTE: You may now need to refresh the theme with its defaults:
 2. Select "Restore Defaults" from the settings cog. (UI note from 1/15/23)
 
 ![screenshot](doc_assets/idea-restore-defaults-screenshot.png)
+
+## Resources
+
+- https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/themes/metadata/IntelliJPlatform.themeMetadata.json

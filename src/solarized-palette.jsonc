@@ -19,9 +19,9 @@
     "base4": "#fdf6e3", // brwhite
     "darkYellow": "#875B10", // 5.5
     "yellow": "#b58900",
-    "brightYellow": "#F0A000",
-    "brightYellowOnBlue": "#FFA000",
-    "darkOrange": "#AE4001", // 5.5 
+    "brightYellow": "#FFDC3C",
+    "brightYellowOnBlue": "#FFBE1E",
+    "darkOrange": "#AE4001", // 5.5
     "orange": "#cb4b16",
     "brightOrange": "#F08040",
     "brightOrangeOnBlue": "#FF8F40",
@@ -48,5 +48,5 @@
     "darkGreen": "#407000", // 5.5
     "green": "#859900",
     "brightGreen": "#83B800",
-    "brightGreenOnBlue": "#85BD2F",
+    "brightGreenOnBlue": "#85BD2F"
 }

@@ -14,7 +14,7 @@
         "backgroundIntense": "{{base03}}", //#002b36
         "background": "{{base02}}", //#073642
         "backgroundMild": "{{base01}}", //#586e75
-        "backgroundMostMild": "{{base00}}", //#657b83
+        "backgroundMostMild": "{{base0}}", //#657b83
         // simple colors
         "gray": "{{base1}}",
         "yellow": "{{brightYellowOnBlue}}", //#DBA000
@@ -27,6 +27,6 @@
         "cyan": "{{brightCyanOnBlue}}", //#2ab1a8
         "green": "{{brightGreenOnBlue}}", //#85A930
         "white": "#FFFFFF",
-        "black": "#000000",
+        "black": "#000000"
     }
 }

@@ -3,7 +3,7 @@
     "type": "light",
     "colors": {
         // standard text
-        "textMostMild": "{{base02}}",
+        "textMostMild": "{{base01}}",
         "textMild": "{{base02}}",
         "text": "{{base03}}",
         "textIntense": "{{base03}}",
@@ -14,7 +14,7 @@
         "backgroundIntense": "{{base2-5}}",
         "background": "{{base2}}",
         "backgroundMild": "{{base1-75}}",
-        "backgroundMostMild": "{{base1-5}}",
+        "backgroundMostMild": "{{base01}}",
         // simple colors
         "gray": "{{base02}}",
         "yellow": "{{darkYellow}}",
@@ -27,6 +27,6 @@
         "cyan": "{{darkCyan}}",
         "green": "{{darkGreen}}",
         "white": "#FFFFFF",
-        "black": "#000000",
+        "black": "#000000"
     }
 }
