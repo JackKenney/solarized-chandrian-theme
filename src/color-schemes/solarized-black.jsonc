@@ -17,16 +17,16 @@
         "backgroundMostMild": "{{base-00}}", //#888883
         // simple colors
         "gray": "{{base1}}",
-        "yellow": "{{brightYellow}}", //#DBA000
+        "yellow": "{{brightYellow}}", //#F0A000
         "orange": "{{brightOrange}}", //#EB7A06
-        "red": "{{brightRed}}", //#ff454f
-        "magenta": "{{brightMagenta}}", //#F246A2
-        "violet": "{{brightViolet}}", //#7f84D7
-        "blue": "{{brightBlue}}", //#66A5EF
+        "red": "{{brightRed}}", //#FF7070
+        "magenta": "{{brightMagenta}}", //#FF60C0
+        "violet": "{{brightViolet}}", //#A0A0F4
+        "blue": "{{brightBlue}}", //#38B0FF
         "darkBlue": "{{darkBlue}}", //#2B60C0
-        "cyan": "{{brightCyan}}", //#2ab1a8
-        "green": "{{brightGreen}}", //#85A930
+        "cyan": "{{brightCyan}}", //#00BCB0
+        "green": "{{brightGreen}}", //#83B800
         "white": "#FFFFFF",
-        "black": "#000000",
+        "black": "#000000"
     }
 }

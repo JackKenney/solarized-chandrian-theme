@@ -8,3 +8,5 @@ out/*
 dist/code/*.json
 dist/idea/*.json
 dist/idea/editor/*.xml
+example-code/*
+!example-code/EXAMPLES.md

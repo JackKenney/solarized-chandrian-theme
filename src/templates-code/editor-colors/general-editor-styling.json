@@ -511,7 +511,7 @@
 	"statusBar.debuggingForeground": "{{text}}",
 	"statusBar.focusBorder": "{{backgroundMostMild}}",
 	"statusBar.foreground": "{{text}}",
-	"statusBar.noFolderBackground": "{{violet}}",
+	"statusBar.noFolderBackground": "{{background}}",
 	"statusBar.noFolderBorder": null,
 	"statusBar.noFolderForeground": "{{text}}",
 	"statusBarItem.activeBackground": "{{text}}2e",
