@@ -9,12 +9,12 @@
     "textIntense": "{{base-3}}",
     "textMostIntense": "{{base-4}}",
     // background
-    "terminalBackground": "{{base+4}}",
-    "backgroundMostIntense": "{{base+4}}",
-    "backgroundIntense": "{{base+3}}",
-    "background": "{{base+2}}",
-    "backgroundMild": "{{base+1}}",
-    "backgroundMostMild": "{{base+0}}",
+    "terminalBackground": "{{base+3}}",
+    "backgroundMostIntense": "{{base+3}}",
+    "backgroundIntense": "{{base+2}}",
+    "background": "{{base+1}}",
+    "backgroundMild": "{{base+0}}",
+    "backgroundMostMild": "{{base+1}}",
     // simple colors
     "gray": "{{base-0}}",
     "yellow": "{{darkYellow}}",
