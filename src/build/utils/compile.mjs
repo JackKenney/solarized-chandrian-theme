@@ -219,7 +219,8 @@ export default class Compiler {
 
     const injections = new XMLInjector().getInjectionXMLTemplates();
     Object.keys(injections).map((key) => {
-      injections[key] = stringTemplate(injections[key], dictionary) + "\n            ";
+      injections[key] =
+        stringTemplate(injections[key], dictionary) + "\n            ";
     });
 
     // combine templates to do one round of templating
