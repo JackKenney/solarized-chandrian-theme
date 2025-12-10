@@ -1,7 +1,7 @@
 import fs from "fs";
 import jsonc from "jsonc-parser";
-import templateJSON from "json-templates";
-import templateXML from "string-template";
+import jsonTemplate from "json-templates";
+import stringTemplate from "string-template";
 
 import * as paths from "./paths.mjs";
 import XMLInjector from "./injection.mjs";
@@ -25,12 +25,12 @@ export default class Compiler {
 
       const colors = this.loadColors(scheme);
 
-      base.colors = this.fillTemplateAsObject(
+      base.colors = this.fillJSONTemplateAsObject(
         colors,
         paths.GENERAL_STYLES_FOLDER
       );
 
-      base.tokenColors = this.fillTemplateAsArray(
+      base.tokenColors = this.fillJSONTemplateAsArray(
         colors,
         paths.CODE_STYLES_FOLDER
       );
@@ -46,6 +46,20 @@ export default class Compiler {
   };
 
   compileZed = () => {
+    // Metadata TOML
+    const extension = this.replaceStringTemplateContents(
+      `${paths.ZED_TEMPLATES}/extension.toml`,
+      { version: this.version() }
+    );
+    this.writeOutputFile(
+      extension,
+      `${paths.ZED_OUTPUT_PATH}`,
+      "extension",
+      "toml",
+      false
+    );
+
+    // Color Theme File
     const theme = {
       name: "Solarized Chandrian",
       description:
@@ -62,16 +76,47 @@ export default class Compiler {
       };
       const colors = this.loadColors(scheme);
 
-      base.style = this.fillTemplateAsObject(colors, paths.ZED_TEMPLATES);
+      base.style = this.fillJSONTemplateAsObject(colors, paths.ZED_TEMPLATES);
 
       theme.themes.push(base);
     });
+
+    console.log(theme);
 
     const outputFileName = "solarized-chandrian";
     this.writeOutputFile(theme, paths.ZED_OUTPUT_PATH, outputFileName, "json");
   };
 
+  getPackage = () => {
+    const contents = fs.readFileSync(`${paths.ROOT}/package.json`, "utf8");
+    return jsonc.parse(contents);
+  };
+
+  version = () => {
+    return this.getPackage()["version"];
+  };
+
   compileIDEA = () => {
+    // Plugin Theme Metadata
+    const pluginXML = this.replaceStringTemplateContents(
+      `${paths.IDEA_TEMPLATES}/META-INF/plugin.xml`,
+      { version: this.version() }
+    );
+    this.writeOutputFile(
+      pluginXML,
+      `${paths.IDEA_OUTPUT_PATH}/META-INF`,
+      "plugin",
+      "xml",
+      false
+    );
+
+    // Plugin Icon
+    fs.copyFileSync(
+      `${paths.IDEA_TEMPLATES}/META-INF/pluginIcon.svg`,
+      `${paths.IDEA_OUTPUT_PATH}/META-INF/pluginIcon.svg`
+    );
+
+    // Color Theme Files
     this.colorSchemeFiles.forEach((fileName) => {
       const scheme = this.parseColorScheme(fileName);
 
@@ -87,9 +132,9 @@ export default class Compiler {
       const colors = this.loadColors(scheme);
       colors["themeName"] = "#" + themeJSON["name"];
 
-      const editorXML = this.replaceXMLTemplateContents(
+      const editorXML = this.replaceStringTemplateContents(
         `${paths.IDEA_TEMPLATES}/editor/solarized-chandrian.xml`,
-        colors
+        this.stripLeadingPoundOffValues(colors)
       );
 
       const themeBase = this.parseJSONContents(
@@ -160,28 +205,29 @@ export default class Compiler {
     return this.parseJSONTemplateString(contents, colors);
   };
   parseJSONTemplateString = (preimage, colors) => {
-    const templated = templateJSON(preimage)(colors);
+    const templated = jsonTemplate(preimage)(colors);
     return jsonc.parse(templated);
   };
 
-  /** NOTE: Strips the # off each value (only pass hex colors) */
-  replaceXMLTemplateContents = (fileName, hexColors) => {
-    const contents = fs.readFileSync(fileName, "utf8");
+  stripLeadingPoundOffValues = (hexColors) => {
+    return Object.keys(hexColors).reduce((carry, key) => {
+      carry[key] = hexColors[key].substr(1);
+      return carry;
+    }, {});
+  };
 
-    const colorsNoHash = {};
-    Object.keys(hexColors).map((key) => {
-      colorsNoHash[key] = hexColors[key].substr(1);
-    });
+  replaceStringTemplateContents = (fileName, dictionary) => {
+    const contents = fs.readFileSync(fileName, "utf8");
 
     const injections = new XMLInjector().getInjectionXMLTemplates();
     Object.keys(injections).map((key) => {
-      injections[key] = templateXML(injections[key], colorsNoHash);
+      injections[key] = stringTemplate(injections[key], dictionary);
     });
 
     // combine templates to do one round of templating
-    const template = Object.assign(colorsNoHash, injections);
+    const template = Object.assign(dictionary, injections);
 
-    return templateXML(contents, template);
+    return stringTemplate(contents, template);
   };
 
   replacePlistTemplateContents = (fileName, colors, themeName) => {
@@ -189,7 +235,7 @@ export default class Compiler {
     const injections = new XMLInjector().iterm2Injections(colors);
     injections["themeName"] = themeName;
 
-    return templateXML(plistTemplate, injections);
+    return stringTemplate(plistTemplate, injections);
   };
 
   parseColorScheme = (fileName) => {
@@ -296,24 +342,27 @@ export default class Compiler {
         string +
         Math.floor(
           parseInt(background.substr(start, 2), 16) * (1 - alpha) +
-          parseInt(foreground.substr(start, 2), 16) * alpha
+            parseInt(foreground.substr(start, 2), 16) * alpha
         ).toString(16),
       ""
     );
     return "#" + color;
   };
 
-  fillTemplateAsObject = (colors, folder) => {
+  fillJSONTemplateAsObject = (colors, folder) => {
     const files = fs.readdirSync(folder);
     return files.reduce((accum, fileName) => {
+      if (!fileName.includes(".json")) return accum;
       const contents = this.parseJSONContents(`${folder}/${fileName}`, colors);
       Object.assign(accum, contents);
       return accum;
     }, {});
   };
-  fillTemplateAsArray = (colors, folder) => {
+
+  fillJSONTemplateAsArray = (colors, folder) => {
     const files = fs.readdirSync(folder);
     return files.reduce((accum, fileName) => {
+      if (!fileName.includes(".json")) return accum;
       const contents = this.parseJSONContents(`${folder}/${fileName}`, colors);
       accum = accum.concat(contents);
       return accum;
@@ -333,9 +382,9 @@ export default class Compiler {
         outputFile,
         JSON.stringify(contents, null, 2),
         "utf8",
-        () => { }
+        () => {}
       );
-    else fs.writeFile(outputFile, contents, "utf8", () => { });
+    else fs.writeFile(outputFile, contents, "utf8", () => {});
 
     console.log("Writing", outputFile);
     return fileName;
