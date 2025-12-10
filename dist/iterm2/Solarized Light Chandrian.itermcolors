@@ -223,11 +223,11 @@
             <key>Color Space</key>
             <string>sRGB</string>
             <key>Blue Component</key>
-            <real>0.8901960784313725</real>
+            <real>0.8313725490196079</real>
             <key>Green Component</key>
-            <real>0.9647058823529412</real>
+            <real>0.9137254901960784</real>
             <key>Red Component</key>
-            <real>0.9921568627450981</real>
+            <real>0.9333333333333333</real>
 		</dict>
 		<key>Bold Color</key>
 		<dict>
@@ -301,11 +301,11 @@
             <key>Color Space</key>
             <string>sRGB</string>
             <key>Blue Component</key>
-            <real>0.8666666666666667</real>
+            <real>0.8196078431372549</real>
             <key>Green Component</key>
-            <real>0.8549019607843137</real>
+            <real>0.8117647058823529</real>
             <key>Red Component</key>
-            <real>0.8980392156862745</real>
+            <real>0.8470588235294118</real>
 		</dict>
 		<key>Badge Color</key>
 		<dict>

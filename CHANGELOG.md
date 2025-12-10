@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.4.x
+
+- update colors to be slightly higher contrast
+- improve build system automation
+
 ## 2.3.x
 
 - add Zed themes
