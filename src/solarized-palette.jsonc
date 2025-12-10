@@ -21,8 +21,8 @@
   "base+4": "#fdf6e3", // brwhite
   "darkYellow": "#7F4E00", // 6.5 on base+4
   "yellow": "#b58900",
-  "brightYellow": "#FFA000", // 8.16 on base-4
-  "brightYellowOnBlue": "#FFAA00", // 8.27 on base04
+  "brightYellow": "#F1AD00", // 8.16 on base-4
+  "brightYellowOnBlue": "#F2B400", // 8.5 on base04
   "darkOrange": "#A0340F", // 6.5 on base+4
   "orange": "#cb4b16",
   "brightOrange": "#FB8000", // 6.5 on base-4

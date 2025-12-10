@@ -96,7 +96,7 @@
     "Component": {
       "borderColor": "{{background}}",
       "disabledBorderColor": "{{background}}",
-      "errorFocusColor": "{{red}}88",
+      "errorFocusColor": "{{red}}44",
       "focusColor": "{{blue}}44",
       "focusedBorderColor": "{{blue}}66",
       "hoverIconColor": "{{textMild}}",
@@ -244,7 +244,7 @@
     },
     "Label": {
       "errorForeground": "{{red}}",
-      "infoForeground": "{{textMostMild}}BB",
+      "infoForeground": "{{textMostMild}}",
       "selectedForeground": "{{text}}",
       "successForeground": "{{cyan}}"
     },

@@ -81,8 +81,6 @@ export default class Compiler {
       theme.themes.push(base);
     });
 
-    console.log(theme);
-
     const outputFileName = "solarized-chandrian";
     this.writeOutputFile(theme, paths.ZED_OUTPUT_PATH, outputFileName, "json");
   };
@@ -221,7 +219,7 @@ export default class Compiler {
 
     const injections = new XMLInjector().getInjectionXMLTemplates();
     Object.keys(injections).map((key) => {
-      injections[key] = stringTemplate(injections[key], dictionary);
+      injections[key] = stringTemplate(injections[key], dictionary) + "\n            ";
     });
 
     // combine templates to do one round of templating

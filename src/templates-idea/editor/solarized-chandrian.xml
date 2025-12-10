@@ -346,7 +346,7 @@
         </option>
         <option name="CSS.COLOR">
             <value>
-                <option name="FOREGROUND" value="{red}" />
+                <option name="FOREGROUND" value="{magenta}" />
             </value>
         </option>
         <option name="CSS.COMMA">
@@ -2025,7 +2025,7 @@
             </value>
         </option>
         <option name="MARKDOWN.CODE_BLOCK">
-            <value>{injection}</value>
+            <value>{structure}</value>
         </option>
         <option name="MARKDOWN.EXPLICIT_LINK">
             <value>{link}</value>
@@ -2055,7 +2055,7 @@
             <value>{structure}</value>
         </option>
         <option name="MARKDOWN.ITALIC_TEXT">
-            <value>{string}</value>
+            <value>{italic}</value>
         </option>
         <option name="MARKDOWN.LINK">
             <value>{link}</value>
@@ -2073,7 +2073,7 @@
             <value>{attribute}</value>
         </option>
         <option name="MARKDOWN.VERBATIM">
-            <value>{injection}</value>
+            <value>{structure}</value>
         </option>
         <option name="MARKDOWN_AUTO_LINK">
             <value>{link}</value>
@@ -2093,16 +2093,16 @@
             <value>{operator}</value>
         </option>
         <option name="MARKDOWN_CODE_BLOCK">
-            <value>{string}</value>
+            <value>{structure}</value>
         </option>
         <option name="MARKDOWN_CODE_FENCE">
             <value>{operator}</value>
         </option>
         <option name="MARKDOWN_CODE_SPAN">
-            <value>{string}</value>
+            <value>{structure}</value>
         </option>
         <option name="MARKDOWN_CODE_SPAN_MARKER">
-            <value>{operator}</value>
+            <value>{structure}</value>
         </option>
         <option name="MARKDOWN_DEFINITION">
             <value>{function}</value>
@@ -2141,13 +2141,13 @@
             <value>{structure}</value>
         </option>
         <option name="MARKDOWN_HTML_BLOCK">
-            <value>{injection}</value>
-        </option>
-        <option name="MARKDOWN_IMAGE">
             <value>{structure}</value>
         </option>
+        <option name="MARKDOWN_IMAGE">
+            <value>{link}</value>
+        </option>
         <option name="MARKDOWN_INLINE_HTML">
-            <value>{injection}</value>
+            <value>{structure}</value>
         </option>
         <option name="MARKDOWN_ITALIC">
             <value>
@@ -2166,7 +2166,7 @@
             <value>{key}</value>
         </option>
         <option name="MARKDOWN_LINK_TEXT">
-            <value>{value}</value>
+            <value>{key}</value>
         </option>
         <option name="MARKDOWN_LINK_TITLE">
             <value>{structure}</value>
@@ -2197,7 +2197,7 @@
             <value>{variable}</value>
         </option>
         <option name="MARKDOWN_TEXT">
-            <value>{string}</value>
+            <value>{default}</value>
         </option>
         <option name="MARKDOWN_UNORDERED_LIST">
             <value>{default}</value>
@@ -3967,9 +3967,7 @@
             <value>{type}</value>
         </option>
         <option name="org.rust.UNSAFE_CODE">
-            <value>
-                <option name="BACKGROUND" value="{redBackground}" />
-            </value>
+            <value>{error}</value>
         </option>
         <option name="org.toml.BOOLEAN">
             <value>{constant}</value>
@@ -4043,7 +4041,7 @@
         <option name="FILESTATUS_DELETED" value="{red}" />
         <option name="FILESTATUS_HIJACKED" value="{yellowBackground}" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="{red}" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="{violet}" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="{gray}" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="{orange}" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="{orange}" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="{orange}" />
@@ -4055,14 +4053,14 @@
         <option name="FILESTATUS_NOT_CHANGED" value="{text}" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="{text}" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="{text}" />
-        <option name="FILESTATUS_OBSOLETE" value="{yellow}" />
+        <option name="FILESTATUS_OBSOLETE" value="{gray}" />
         <option name="FILESTATUS_RENAMED" value="{orange}" />
         <option name="FILESTATUS_SUPPRESSED" value="{blue}" />
-        <option name="FILESTATUS_SWITCHED" value="{red}" />
+        <option name="FILESTATUS_SWITCHED" value="{orange}" />
         <option name="FILESTATUS_UNKNOWN" value="{red}" />
         <option name="FILESTATUS_addedOutside" value="{green}" />
         <option name="FILESTATUS_changelistConflict" value="{orange}" />
-        <option name="FILESTATUS_modifiedOutside" value="{yellow}" />
+        <option name="FILESTATUS_modifiedOutside" value="{gray}" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="{yellowBackground}" />
         <option name="GUTTER_BACKGROUND" value="{backgroundIntense}" />
         <option name="GUTTER_BORDER" value="{white}" />

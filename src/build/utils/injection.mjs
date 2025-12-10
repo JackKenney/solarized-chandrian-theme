@@ -33,31 +33,25 @@ export default class XMLInjector {
   DOTTED_LINE = "6";
 
   foreground = (key) => `
-                <option name="FOREGROUND" value="{${key}}"/>
-            `;
+                <option name="FOREGROUND" value="{${key}}"/>`;
 
   background = (key) => `
-                <option name="BACKGROUND" value="{${key}}"/>
-            `;
+                <option name="BACKGROUND" value="{${key}}"/>`;
 
   effectColor = (key) => `
-                <option name="EFFECT_COLOR" value="{${key}}"/>
-            `;
+                <option name="EFFECT_COLOR" value="{${key}}"/>`;
 
   effectType = (value) =>
     value
       ? `
-            <option name="EFFECT_TYPE" value="${value}" />
-    `
+                <option name="EFFECT_TYPE" value="${value}" />`
       : "";
 
   fontType = (value) => `
-                <option name="FONT_TYPE" value="${value}"/>
-            `;
+                <option name="FONT_TYPE" value="${value}"/>`;
 
   errorStripe = (value) => `
-                <option name="ERROR_STRIPE_COLOR" value="{${value}}"/>
-    `;
+                <option name="ERROR_STRIPE_COLOR" value="{${value}}"/>`;
 
   getInjectionXMLTemplates() {
     const template = {
@@ -161,16 +155,16 @@ export default class XMLInjector {
         this.effectType(this.UNDERWAVE),
 
       // levels
-      level_0: this.foreground("blue"),
-      level_1: this.foreground("orange"),
+      level_0: this.foreground("violet"),
+      level_1: this.foreground("blue"),
       level_2: this.foreground("cyan"),
-      level_3: this.foreground("violet"),
+      level_3: this.foreground("green"),
       level_4: this.foreground("yellow"),
-      level_5: this.foreground("magenta"),
-      level_6: this.foreground("green"),
-      level_7: this.foreground("red"),
-      level_8: this.foreground("blue"),
-      level_9: this.foreground("orange"),
+      level_5: this.foreground("orange"),
+      level_6: this.foreground("red"),
+      level_7: this.foreground("magenta"),
+      level_8: this.foreground("violet"),
+      level_9: this.foreground("blue"),
     };
 
     // duplicates to facilitate future complications
