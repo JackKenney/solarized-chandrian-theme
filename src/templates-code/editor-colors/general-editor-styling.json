@@ -585,7 +585,7 @@
 	"tab.unfocusedInactiveForeground": "{{textMild}}",
 	"tab.unfocusedInactiveModifiedBorder": "{{blue}}40",
 	"terminal.ansiBlack": "{{text}}",
-	"terminal.ansiBlue": "{{blue}}DD",
+	"terminal.ansiBlue": "{{blue}}",
 	"terminal.ansiBrightBlack": "{{text}}",
 	"terminal.ansiBrightBlue": "{{blue}}",
 	"terminal.ansiBrightCyan": "{{cyan}}",

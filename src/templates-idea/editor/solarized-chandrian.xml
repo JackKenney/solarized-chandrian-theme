@@ -4145,19 +4145,19 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{yellowBackground}" />
     </colors>
     <console-font>
-        <option name="EDITOR_FONT_NAME" value="Fira Code" />
+        <option name="EDITOR_FONT_NAME" value="Ligalex Mono" />
         <option name="EDITOR_FONT_SIZE" value="15" />
     </console-font>
     <console-font>
-        <option name="EDITOR_FONT_NAME" value="Ligalex Mono" />
+        <option name="EDITOR_FONT_NAME" value="Fira Code" />
         <option name="EDITOR_FONT_SIZE" value="15" />
     </console-font>
     <font>
-        <option name="EDITOR_FONT_NAME" value="Fira Code" />
+        <option name="EDITOR_FONT_NAME" value="Ligalex Mono" />
         <option name="EDITOR_FONT_SIZE" value="15" />
     </font>
     <font>
-        <option name="EDITOR_FONT_NAME" value="Ligalex Mono" />
+        <option name="EDITOR_FONT_NAME" value="Fira Code" />
         <option name="EDITOR_FONT_SIZE" value="15" />
     </font>
     <option name="CONSOLE_LIGATURES" value="true" />

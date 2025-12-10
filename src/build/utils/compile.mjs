@@ -262,11 +262,11 @@ export default class Compiler {
       keys: scheme.cyan, //this.state.foo, json keys, bright purple
       keywordGray: scheme.gray,
       macros: scheme.violet, // @gen, async
-      mainAlt: scheme.violet,
       mainMild: scheme.cyan,
       member: scheme.cyan,
       metadata: scheme.violet,
       number: scheme.magenta,
+      property: scheme.cyan,
       parenthesis: scheme.blue,
       punctuation_important: scheme.textMostIntense,
       punctuation_unimportant: scheme.textMild,
@@ -296,7 +296,7 @@ export default class Compiler {
         string +
         Math.floor(
           parseInt(background.substr(start, 2), 16) * (1 - alpha) +
-            parseInt(foreground.substr(start, 2), 16) * alpha
+          parseInt(foreground.substr(start, 2), 16) * alpha
         ).toString(16),
       ""
     );
@@ -333,9 +333,9 @@ export default class Compiler {
         outputFile,
         JSON.stringify(contents, null, 2),
         "utf8",
-        () => {}
+        () => { }
       );
-    else fs.writeFile(outputFile, contents, "utf8", () => {});
+    else fs.writeFile(outputFile, contents, "utf8", () => { });
 
     console.log("Writing", outputFile);
     return fileName;

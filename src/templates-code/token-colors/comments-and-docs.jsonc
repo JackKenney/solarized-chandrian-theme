@@ -22,6 +22,7 @@
             "punctuation.definition.comment"
         ],
         "settings": {
+            "foreground": "{{commentGray}}",
             "fontStyle": "italic"
         }
     },
@@ -29,19 +30,11 @@
         "scope": [
             "keyword.other.phpdoc", //@param
             "comment.block.documentation storage.type",
+            "comment.block.documentation keyword",
             "comment.block.documentation variable.other" //variable name in jsdoc
         ],
         "settings": {
-            "foreground": "{{commentGrayProminent}}",
-            "fontStyle": ""
-        }
-    },
-    {
-        "scope": [
-            "comment.block.documentation keyword",
-        ],
-        "settings": {
-            "foreground": "{{commentGrayProminent}}",
+            "foreground": "{{yellow}}",
             "fontStyle": ""
         }
     },

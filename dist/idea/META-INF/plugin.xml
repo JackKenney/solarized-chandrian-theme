@@ -1,7 +1,7 @@
 <idea-plugin>
     <name>Solarized Chandrian Themes</name>
     <id>com.jackkenney.solarized-chandrian-theme</id>
-    <version>2.3.0</version>
+    <version>2.3.3</version>
 
     <vendor
         email="jack@kenney.dev"
@@ -44,6 +44,11 @@
 
     <change-notes>
     <![CDATA[
+<b>2.3.*</b>
+<br/>
+<ul>
+<li>Updated colors to be higher contrast for light themes per user request and updated luminosity to be more steady across colors.</li>
+</ul>
 <b>2.2.*</b>
 <br/>
 <ul>

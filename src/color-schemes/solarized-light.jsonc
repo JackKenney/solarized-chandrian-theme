@@ -1,32 +1,32 @@
 {
-    "name": "Solarized Light",
-    "type": "light",
-    "colors": {
-        // standard text
-        "textMostMild": "{{base01}}",
-        "textMild": "{{base02}}",
-        "text": "{{base03}}",
-        "textIntense": "{{base03}}",
-        "textMostIntense": "{{base04}}", //fn params
-        // background
-        "terminalBackground": "{{base3}}",
-        "backgroundMostIntense": "{{base3}}",
-        "backgroundIntense": "{{base2-5}}",
-        "background": "{{base2}}",
-        "backgroundMild": "{{base1-75}}",
-        "backgroundMostMild": "{{base01}}",
-        // simple colors
-        "gray": "{{base02}}",
-        "yellow": "{{darkYellow}}",
-        "orange": "{{darkOrange}}",
-        "red": "{{darkRed}}",
-        "magenta": "{{darkMagenta}}",
-        "violet": "{{darkViolet}}",
-        "blue": "{{darkBlue}}",
-        "darkBlue": "{{darkBlue}}",
-        "cyan": "{{darkCyan}}",
-        "green": "{{darkGreen}}",
-        "white": "#FFFFFF",
-        "black": "#000000"
-    }
+  "name": "Solarized Light",
+  "type": "light",
+  "colors": {
+    // standard text
+    "textMostMild": "{{base-0}}",
+    "textMild": "{{base-1}}",
+    "text": "{{base-2}}",
+    "textIntense": "{{base-3}}",
+    "textMostIntense": "{{base-4}}",
+    // background
+    "terminalBackground": "{{base+4}}",
+    "backgroundMostIntense": "{{base+4}}",
+    "backgroundIntense": "{{base+3}}",
+    "background": "{{base+2}}",
+    "backgroundMild": "{{base+1}}",
+    "backgroundMostMild": "{{base+0}}",
+    // simple colors
+    "gray": "{{base-0}}",
+    "yellow": "{{darkYellow}}",
+    "orange": "{{darkOrange}}",
+    "red": "{{darkRed}}",
+    "magenta": "{{darkMagenta}}",
+    "violet": "{{darkViolet}}",
+    "blue": "{{darkBlue}}",
+    "darkBlue": "{{darkBlue}}",
+    "cyan": "{{darkCyan}}",
+    "green": "{{darkGreen}}",
+    "white": "{{white}}",
+    "black": "{{black}}"
+  }
 }

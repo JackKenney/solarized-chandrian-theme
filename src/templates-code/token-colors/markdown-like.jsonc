@@ -1,14 +1,6 @@
 [
     {
         "scope": [
-            "markup.bold.markdown"
-        ],
-        "settings": {
-            "foreground": "{{textIntense}}"
-        }
-    },
-    {
-        "scope": [
             "meta.paragraph.markdown"
         ],
         "settings": {
@@ -17,10 +9,19 @@
     },
     {
         "scope": [
+            "markup.bold.markdown"
+        ],
+        "settings": {
+            "foreground": "{{textMostIntense}}",
+            "fontStyle": "bold"
+        }
+    },
+    {
+        "scope": [
             "markup.italic.markdown"
         ],
         "settings": {
-            // "foreground": "{{textIntense}}",
+            "foreground": "{{textMostIntense}}",
             "fontStyle": "italic"
         }
     },
@@ -37,7 +38,7 @@
             "markup.underline.link.markdown"
         ],
         "settings": {
-            // "fontStyle": "underline"
+            "fontStyle": "underline"
         }
     },
     {
@@ -55,42 +56,21 @@
             "markup.list.numbered.markdown"
         ],
         "settings": {
-            "foreground": "{{types}}"
+            "foreground": "{{blue}}"
         }
     },
     {
         "scope": [
             "heading.1.markdown",
-            "markup.heading.setext.1.markdown"
-        ],
-        "settings": {
-            "foreground": "{{keys}}",
-            "fontStyle": "bold"
-        }
-    },
-    {
-        "scope": [
             "heading.2.markdown",
-            "markup.heading.setext.2.markdown"
+            "heading.3.markdown",
+            "heading.4.markdown",
+            "markup.heading.setext.1.markdown",
+            "markup.heading.setext.2.markdown",
         ],
         "settings": {
-            "foreground": "{{mainMild}}"
-        }
-    },
-    {
-        "scope": [
-            "heading.3.markdown"
-        ],
-        "settings": {
-            "foreground": "{{functions}}"
-        }
-    },
-    {
-        "scope": [
-            "heading.4.markdown"
-        ],
-        "settings": {
-            "foreground": "{{text}}"
+            "foreground": "{{cyan}}",
+            "fontStyle": "bold"
         }
     },
     {
@@ -142,7 +122,9 @@
             "string.other.link.title.markdown",
             "string.other.link.description.markdown",
             "string.other.link.description.title.markdown",
-            "meta.link.inet.markdown markup.underline.link.markdown"
+            "meta.link.inet.markdown markup.underline.link.markdown",
+            "constant.other.reference.link.markdown",
+            "markup.inline.raw.string.markdown",
         ],
         "settings": {
             "foreground": "{{structural}}"
@@ -154,24 +136,7 @@
             "markup.underline.link.image.markdown"
         ],
         "settings": {
-            "foreground": "{{commentGrayProminent}}"
-            // , "fontStyle": "underline"
-        }
-    },
-    {
-        "scope": [
-            "constant.other.reference.link.markdown"
-        ],
-        "settings": {
-            "foreground": "{{structural}}"
-        }
-    },
-    {
-        "scope": [
-            "markup.inline.raw.string.markdown"
-        ],
-        "settings": {
-            "foreground": "{{structural}}"
+            "foreground": "{{commentGray}}"
         }
     },
     {

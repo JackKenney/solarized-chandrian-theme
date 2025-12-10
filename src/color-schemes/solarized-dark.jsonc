@@ -1,32 +1,32 @@
 {
-    "name": "Solarized Dark",
-    "type": "dark",
-    "colors": {
-        // standard text
-        "textMostMild": "{{base0}}", //#839496
-        "textMild": "{{base1}}", //#93a1a1
-        "text": "{{base2}}", //#ded8c5
-        "textIntense": "{{base3}}", //#eee8d5
-        "textMostIntense": "{{base4}}", //#fdf6e3 //fn params
-        // background
-        "terminalBackground": "{{base04}}", //#102530
-        "backgroundMostIntense": "{{base04}}", //#102530
-        "backgroundIntense": "{{base03}}", //#002b36
-        "background": "{{base02}}", //#073642
-        "backgroundMild": "{{base01}}", //#586e75
-        "backgroundMostMild": "{{base0}}", //#657b83
-        // simple colors
-        "gray": "{{base1}}",
-        "yellow": "{{brightYellowOnBlue}}", //#DBA000
-        "orange": "{{brightOrangeOnBlue}}", //#EB7A06
-        "red": "{{brightRedOnBlue}}", //#ff454f
-        "magenta": "{{brightMagentaOnBlue}}", //#F246A2
-        "violet": "{{brightVioletOnBlue}}", //#7f84D7
-        "blue": "{{brightBlueOnBlue}}", //#66A5EF
-        "darkBlue": "{{darkBlue}}", //#2B60C0
-        "cyan": "{{brightCyanOnBlue}}", //#2ab1a8
-        "green": "{{brightGreenOnBlue}}", //#85A930
-        "white": "#FFFFFF",
-        "black": "#000000"
-    }
+  "name": "Solarized Dark",
+  "type": "dark",
+  "colors": {
+    // standard text
+    "textMostMild": "{{base1}}",
+    "textMild": "{{base+0}}",
+    "text": "{{base+1}}",
+    "textIntense": "{{base+2}}",
+    "textMostIntense": "{{base+3}}",
+    // background
+    "terminalBackground": "{{base04}}",
+    "backgroundMostIntense": "{{base04}}",
+    "backgroundIntense": "{{base03}}",
+    "background": "{{base02}}",
+    "backgroundMild": "{{base01}}",
+    "backgroundMostMild": "{{base0}}",
+    // simple colors
+    "gray": "{{base1}}",
+    "yellow": "{{brightYellowOnBlue}}",
+    "orange": "{{brightOrangeOnBlue}}",
+    "red": "{{brightRedOnBlue}}",
+    "magenta": "{{brightMagentaOnBlue}}",
+    "violet": "{{brightVioletOnBlue}}",
+    "blue": "{{brightBlueOnBlue}}",
+    "darkBlue": "{{darkBlue}}",
+    "cyan": "{{brightCyanOnBlue}}",
+    "green": "{{brightGreenOnBlue}}",
+    "white": "{{white}}",
+    "black": "{{black}}"
+  }
 }

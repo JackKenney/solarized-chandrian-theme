@@ -126,7 +126,7 @@
             "meta.function.decorator", //@foo in python
         ],
         "settings": {
-            "foreground": "{{macros}}"
+            "foreground": "{{yellow}}"
         }
     },
     {

@@ -1,32 +1,32 @@
 {
-    "name": "Solarized Black",
-    "type": "dark",
-    "colors": {
-        // standard text
-        "textMostMild": "{{base0}}", //#839496
-        "textMild": "{{base1}}", //#93a1a1
-        "text": "{{base1-5}}", //#beb8a5
-        "textIntense": "{{base2}}", //#ded8c5
-        "textMostIntense": "{{base3}}", //#eee8d5
-        // background
-        "terminalBackground": "{{base-4}}", //#1e1e1e
-        "backgroundMostIntense": "{{base-4}}", //#1e1e1e
-        "backgroundIntense": "{{base-3}}", //#252526
-        "background": "{{base-2}}", //#383b3d
-        "backgroundMild": "{{base-1}}", //#555555
-        "backgroundMostMild": "{{base-00}}", //#888883
-        // simple colors
-        "gray": "{{base1}}",
-        "yellow": "{{brightYellow}}", //#F0A000
-        "orange": "{{brightOrange}}", //#EB7A06
-        "red": "{{brightRed}}", //#FF7070
-        "magenta": "{{brightMagenta}}", //#FF60C0
-        "violet": "{{brightViolet}}", //#A0A0F4
-        "blue": "{{brightBlue}}", //#38B0FF
-        "darkBlue": "{{darkBlue}}", //#2B60C0
-        "cyan": "{{brightCyan}}", //#00BCB0
-        "green": "{{brightGreen}}", //#83B800
-        "white": "#FFFFFF",
-        "black": "#000000"
-    }
+  "name": "Solarized Black",
+  "type": "dark",
+  "colors": {
+    // standard text
+    "textMostMild": "{{base1}}",
+    "textMild": "{{base+0}}",
+    "text": "{{base+1}}",
+    "textIntense": "{{base+2}}",
+    "textMostIntense": "{{base+3}}",
+    // background
+    "terminalBackground": "{{base-4}}",
+    "backgroundMostIntense": "{{base-4}}",
+    "backgroundIntense": "{{base-3}}",
+    "background": "{{base-2}}",
+    "backgroundMild": "{{base-1}}",
+    "backgroundMostMild": "{{base-0}}",
+    // simple colors
+    "gray": "{{base1}}",
+    "yellow": "{{brightYellow}}",
+    "orange": "{{brightOrange}}",
+    "red": "{{brightRed}}",
+    "magenta": "{{brightMagenta}}",
+    "violet": "{{brightViolet}}",
+    "blue": "{{brightBlue}}",
+    "darkBlue": "{{darkBlue}}",
+    "cyan": "{{brightCyan}}",
+    "green": "{{brightGreen}}",
+    "white": "{{white}}",
+    "black": "{{black}}"
+  }
 }

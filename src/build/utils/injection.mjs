@@ -37,12 +37,12 @@ export default class XMLInjector {
             `;
 
   background = (key) => `
-            <option name="BACKGROUND" value="{${key}}"/>
-    `;
+                <option name="BACKGROUND" value="{${key}}"/>
+            `;
 
   effectColor = (key) => `
-            <option name="EFFECT_COLOR" value="{${key}}"/>
-    `;
+                <option name="EFFECT_COLOR" value="{${key}}"/>
+            `;
 
   effectType = (value) =>
     value
@@ -144,8 +144,7 @@ export default class XMLInjector {
 
       tag: this.foreground("tag"),
 
-      template:
-        this.background("backgroundIntense") + this.effectColor("violet"),
+      template: '',
 
       unknown:
         this.foreground("commentGray") +
@@ -259,8 +258,8 @@ export default class XMLInjector {
     Ansi_15_Color: this.iterm2Template(colors["white"]),
     Ansi_11_Color: this.iterm2Template(colors["yellow"]),
     Selection_Color: this.iterm2Template(colors["selectionBackground"]),
-    Cursor_Color: this.iterm2Template(colors["textIntense"]),
-    Cursor_Guide_Color: this.iterm2Template(colors["textIntense"]),
+    Cursor_Color: this.iterm2Template(colors["yellow"]),
+    Cursor_Guide_Color: this.iterm2Template(colors["yellow"]),
     Cursor_Text_Color: this.iterm2Template(colors["textIntense"]),
     Link_Color: this.iterm2Template(colors["violet"]),
     Selected_Text_Color: this.iterm2Template(colors["textMostIntense"]),

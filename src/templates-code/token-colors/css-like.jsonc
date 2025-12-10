@@ -91,7 +91,7 @@
             "source.css entity.other.attribute-name.pseudo-element"
         ],
         "settings": {
-            "foreground": "{{mainAlt}}"
+            "foreground": "{{class}}"
         }
     },
     {
@@ -100,7 +100,7 @@
             "source.css punctuation.section.function.end.bracket.round" //assuming :not is primary case
         ],
         "settings": {
-            "foreground": "{{mainAlt}}BF"
+            "foreground": "{{text}}"
         }
     },
     //prop name
@@ -110,7 +110,7 @@
             "source.css meta.property-list entity.name.tag" //otherwise colors cursor and content
         ],
         "settings": {
-            "foreground": "{{keys}}"
+            "foreground": "{{key}}"
         }
     },
     {
@@ -118,7 +118,7 @@
             "support.type.vendored.property-name"
         ],
         "settings": {
-            "foreground": "{{keys}}BF"
+            "foreground": "{{key}}BF"
         }
     },
     //ATTR Values
@@ -214,7 +214,7 @@
             "source.css keyword.operator.logical.only.media"
         ],
         "settings": {
-            "foreground": "{{keywordGray}}"
+            "foreground": "{{structural}}"
         }
     },
     {

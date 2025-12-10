@@ -6,7 +6,7 @@
       "punctuation.separator.dictionary.key-value.json", //:
     ],
     "settings": {
-      "foreground": "{{commentGray}}"
+      "foreground": "{{text}}"
     }
   },
   {
@@ -20,7 +20,7 @@
   },
   {
     "scope": [
-      "punctuation.separator.dictionary.pair.json" //,
+      "punctuation.separator.dictionary.pair.json" // ,
     ],
     "settings": {
       "foreground": "{{textIntense}}"
@@ -50,7 +50,7 @@
       "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
     ],
     "settings": {
-      "foreground": "{{mainAlt}}"
+      "foreground": "{{tag}}"
     }
   },
   {

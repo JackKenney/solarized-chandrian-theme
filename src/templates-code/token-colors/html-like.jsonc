@@ -14,7 +14,7 @@
             "meta.tag.block.any"
         ],
         "settings": {
-            "foreground": "{{mainMild}}"
+            "foreground": "{{textIntense}}"
         }
     },
     {
@@ -24,7 +24,7 @@
             "meta.tag.object.img entity.name.tag"
         ],
         "settings": {
-            "foreground": "{{mainAlt}}"
+            "foreground": "{{tag}}"
         }
     },
     {
@@ -68,7 +68,7 @@
             "meta.tag.metadata.script"
         ],
         "settings": {
-            "foreground": "{{mainAlt}}"
+            "foreground": "{{tag}}"
         }
     },
     {
@@ -230,7 +230,7 @@
             "meta.jsx meta.tag punctuation.definition.tag"
         ],
         "settings": {
-            "foreground": "{{mainAlt}}BF"
+            "foreground": "{{tag}}"
         }
     },
     {
