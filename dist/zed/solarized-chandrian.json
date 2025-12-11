@@ -615,7 +615,7 @@
           "#855900",
           "#B03818",
           "#c41008",
-          "#BE036E"
+          "#B2079F"
         ],
         "background": "#ded8c5",
         "background.appearance": "opaque",
@@ -705,9 +705,9 @@
             "selection": "#B0381833"
           },
           {
-            "background": "#BE036E22",
-            "cursor": "#BE036E",
-            "selection": "#BE036E33"
+            "background": "#B2079F22",
+            "cursor": "#B2079F",
+            "selection": "#B2079F33"
           },
           {
             "background": "#7650A022",
@@ -745,8 +745,8 @@
         "terminal.ansi.bright_yellow": "#855900",
         "terminal.ansi.blue": "#205ACFDD",
         "terminal.ansi.bright_blue": "#205ACF",
-        "terminal.ansi.magenta": "#BE036EDD",
-        "terminal.ansi.bright_magenta": "#BE036E",
+        "terminal.ansi.magenta": "#B2079FDD",
+        "terminal.ansi.bright_magenta": "#B2079F",
         "terminal.ansi.cyan": "#006B82DD",
         "terminal.ansi.bright_cyan": "#006B82",
         "terminal.ansi.white": "#FFFFFFDD",
@@ -775,7 +775,7 @@
             "color": "#855900"
           },
           "boolean": {
-            "color": "#BE036E"
+            "color": "#B2079F"
           },
           "comment": {
             "color": "#666666"
@@ -784,10 +784,10 @@
             "color": "#666666"
           },
           "constant": {
-            "color": "#BE036E"
+            "color": "#B2079F"
           },
           "constant.builtin": {
-            "color": "#BE036E"
+            "color": "#B2079F"
           },
           "constructor": {
             "color": "#7650A0"
@@ -802,7 +802,7 @@
             "color": "#1e1e1e"
           },
           "enum": {
-            "color": "#BE036E"
+            "color": "#B2079F"
           },
           "function": {
             "color": "#205ACF"
@@ -823,7 +823,7 @@
             "color": "#205ACF"
           },
           "number": {
-            "color": "#BE036E"
+            "color": "#B2079F"
           },
           "operator": {
             "color": "#855900"
