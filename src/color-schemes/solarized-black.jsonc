@@ -3,8 +3,8 @@
   "type": "dark",
   "colors": {
     // standard text
-    "textMostMild": "{{base1}}",
-    "textMild": "{{base+0}}",
+    "textMostMild": "{{base+0}}",
+    "textMild": "{{base+1}}",
     "text": "{{base+1}}",
     "textIntense": "{{base+2}}",
     "textMostIntense": "{{base+3}}",
@@ -16,7 +16,7 @@
     "backgroundMild": "{{base-1}}",
     "backgroundMostMild": "{{base-0}}",
     // simple colors
-    "gray": "{{base1}}",
+    "gray": "{{base+0}}",
     "yellow": "{{brightYellow}}",
     "orange": "{{brightOrange}}",
     "red": "{{brightRed}}",

@@ -1,6 +1,6 @@
 id = "solarized-chandrian"
 name = "Solarized Chandrian Theme"
-version = "2.5.0"
+version = "2.5.1"
 schema_version = 1
 authors = ["Jack Kenney <jack@kenney.dev>"]
 description = "Solarized Chandrian Theme for Zed"
