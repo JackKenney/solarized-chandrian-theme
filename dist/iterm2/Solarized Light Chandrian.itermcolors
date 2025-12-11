@@ -392,11 +392,11 @@
             <key>Color Space</key>
             <string>sRGB</string>
             <key>Blue Component</key>
-            <real>0.8352941176470589</real>
+            <real>0.7725490196078432</real>
             <key>Green Component</key>
-            <real>0.9098039215686274</real>
+            <real>0.8470588235294118</real>
             <key>Red Component</key>
-            <real>0.9333333333333333</real>
+            <real>0.8705882352941177</real>
 		</dict>
 		<key>Underline Color</key>
 		<dict>

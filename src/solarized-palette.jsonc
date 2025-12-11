@@ -14,7 +14,7 @@
   "base+0": "#839496", // brblue
   "base+1": "#beb8a5", // brcyan
   "base+1-5": "#cec8b5", // medium tan
-  "base+2": "#eee8d5", // tan
+  "base+2": "#ded8c5", // tan
   "base+2-5": "#e6e0cd", // light tan
   "base+3": "#eee8d5", // white
   "base+4": "#fdf6e3", // brwhite
