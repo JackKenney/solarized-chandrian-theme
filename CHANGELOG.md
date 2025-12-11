@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.4.x
+## 2.5.x
 
 - update colors to be slightly higher contrast
 - improve build system automation
