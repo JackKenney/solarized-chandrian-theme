@@ -54,7 +54,7 @@
   "brightCyan": "#00BCB0", // 7 on base-4
   "brightCyanOnBlue": "#27C0B8", // 7 on base04
 
-  "darkGreen": "#436D00", // 5 on base+3
+  "darkGreen": "#316F20", // 5 on base+3
   "green": "#859900", // solarized
   "brightGreen": "#83B800", // 7 on base-4
   "brightGreenOnBlue": "#85BD2F", // 7 on base04
