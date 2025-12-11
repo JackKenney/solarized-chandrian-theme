@@ -11,9 +11,9 @@
     // background
     "terminalBackground": "{{base+3}}",
     "backgroundMostIntense": "{{base+3}}",
-    "backgroundIntense": "{{base+2}}",
-    "background": "{{base+1}}",
-    "backgroundMild": "{{base+0}}",
+    "backgroundIntense": "{{base+2-5}}",
+    "background": "{{base+2}}",
+    "backgroundMild": "{{base+1-5}}",
     "backgroundMostMild": "{{base+1}}",
     // simple colors
     "gray": "{{base-0}}",
