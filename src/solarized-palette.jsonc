@@ -36,8 +36,8 @@
 
   "darkMagenta": "#B2079F", // 5 on base+3
   "magenta": "#C10078", // solarized
-  "brightMagenta": "#FF70F0", // 7 on base-4
-  "brightMagentaOnBlue": "#FF78F9", // 7 on base04
+  "brightMagenta": "#F07BF2", // 7 on base-4
+  "brightMagentaOnBlue": "#FA7CF9", // 7 on base04
 
   "darkViolet": "#7650A0", // 5 on base+3
   "violet": "#6c71c4", // solarized

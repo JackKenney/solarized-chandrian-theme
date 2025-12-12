@@ -15,7 +15,7 @@
           "#F1A000",
           "#FF8834",
           "#FF8383",
-          "#FF70F0"
+          "#F07BF2"
         ],
         "background": "#2b2b2b",
         "background.appearance": "opaque",
@@ -105,9 +105,9 @@
             "selection": "#FF883433"
           },
           {
-            "background": "#FF70F022",
-            "cursor": "#FF70F0",
-            "selection": "#FF70F033"
+            "background": "#F07BF222",
+            "cursor": "#F07BF2",
+            "selection": "#F07BF233"
           },
           {
             "background": "#A0A0F422",
@@ -145,8 +145,8 @@
         "terminal.ansi.bright_yellow": "#F1A000",
         "terminal.ansi.blue": "#38B0FFDD",
         "terminal.ansi.bright_blue": "#38B0FF",
-        "terminal.ansi.magenta": "#FF70F0DD",
-        "terminal.ansi.bright_magenta": "#FF70F0",
+        "terminal.ansi.magenta": "#F07BF2DD",
+        "terminal.ansi.bright_magenta": "#F07BF2",
         "terminal.ansi.cyan": "#00BCB0DD",
         "terminal.ansi.bright_cyan": "#00BCB0",
         "terminal.ansi.white": "#FFFFFFDD",
@@ -175,7 +175,7 @@
             "color": "#F1A000"
           },
           "boolean": {
-            "color": "#FF70F0"
+            "color": "#F07BF2"
           },
           "comment": {
             "color": "#839496"
@@ -184,10 +184,10 @@
             "color": "#839496"
           },
           "constant": {
-            "color": "#FF70F0"
+            "color": "#F07BF2"
           },
           "constant.builtin": {
-            "color": "#FF70F0"
+            "color": "#F07BF2"
           },
           "constructor": {
             "color": "#A0A0F4"
@@ -202,7 +202,7 @@
             "color": "#eee8d5"
           },
           "enum": {
-            "color": "#FF70F0"
+            "color": "#F07BF2"
           },
           "function": {
             "color": "#38B0FF"
@@ -223,7 +223,7 @@
             "color": "#38B0FF"
           },
           "number": {
-            "color": "#FF70F0"
+            "color": "#F07BF2"
           },
           "operator": {
             "color": "#F1A000"
@@ -315,7 +315,7 @@
           "#F0A800",
           "#FF9040",
           "#FF8B8B",
-          "#FF78F9"
+          "#FA7CF9"
         ],
         "background": "#073642",
         "background.appearance": "opaque",
@@ -405,9 +405,9 @@
             "selection": "#FF904033"
           },
           {
-            "background": "#FF78F922",
-            "cursor": "#FF78F9",
-            "selection": "#FF78F933"
+            "background": "#FA7CF922",
+            "cursor": "#FA7CF9",
+            "selection": "#FA7CF933"
           },
           {
             "background": "#B7A0F122",
@@ -445,8 +445,8 @@
         "terminal.ansi.bright_yellow": "#F0A800",
         "terminal.ansi.blue": "#0AB8FFDD",
         "terminal.ansi.bright_blue": "#0AB8FF",
-        "terminal.ansi.magenta": "#FF78F9DD",
-        "terminal.ansi.bright_magenta": "#FF78F9",
+        "terminal.ansi.magenta": "#FA7CF9DD",
+        "terminal.ansi.bright_magenta": "#FA7CF9",
         "terminal.ansi.cyan": "#27C0B8DD",
         "terminal.ansi.bright_cyan": "#27C0B8",
         "terminal.ansi.white": "#FFFFFFDD",
@@ -475,7 +475,7 @@
             "color": "#F0A800"
           },
           "boolean": {
-            "color": "#FF78F9"
+            "color": "#FA7CF9"
           },
           "comment": {
             "color": "#839496"
@@ -484,10 +484,10 @@
             "color": "#839496"
           },
           "constant": {
-            "color": "#FF78F9"
+            "color": "#FA7CF9"
           },
           "constant.builtin": {
-            "color": "#FF78F9"
+            "color": "#FA7CF9"
           },
           "constructor": {
             "color": "#B7A0F1"
@@ -502,7 +502,7 @@
             "color": "#eee8d5"
           },
           "enum": {
-            "color": "#FF78F9"
+            "color": "#FA7CF9"
           },
           "function": {
             "color": "#0AB8FF"
@@ -523,7 +523,7 @@
             "color": "#0AB8FF"
           },
           "number": {
-            "color": "#FF78F9"
+            "color": "#FA7CF9"
           },
           "operator": {
             "color": "#F0A800"
