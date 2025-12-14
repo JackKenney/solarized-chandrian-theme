@@ -109,6 +109,8 @@
             "meta.definition.method",
             "entity.name.function", //function definition
             "support.function", //.keys, .forEach, require
+            "support.function.builtin",
+            "support.function.node",
         ],
         "settings": {
             "foreground": "{{functions}}"
@@ -135,8 +137,6 @@
             "support.class",
             "support.constant",
             "support.class.builtin", // Math.Infinity
-            "support.function.builtin",
-            "support.function.node",
             "variable.language",
         ],
         "settings": {

@@ -2,6 +2,7 @@
 
 ## 2.5.x
 
+- use traditional solarized light most-intense background for improved contrast
 - update colors to be slightly higher contrast
 - improve build system automation
 

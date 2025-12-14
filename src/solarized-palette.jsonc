@@ -4,61 +4,50 @@
   "base-2": "#2b2b2b", // fringe black
   "base-1": "#555555", // sidebar black
   "base-0": "#666666", // lightest base
-
   "base04": "#102530", // deepblack
   "base03": "#002b36", // brblack
   "base02": "#073642", // black
   "base01": "#586e75", // brgreen
   "base00": "#657b83", // bryellow
-
   "base+0": "#839496", // brblue
   "base+1": "#beb8a5", // brcyan
   "base+1-5": "#cec8b5", // medium tan
   "base+2": "#ded8c5", // tan
   "base+2-5": "#e6e0cd", // light tan
   "base+3": "#eee8d5", // white
-  "base+4": "#fdf6e3", // brwhite
-
-  "darkYellow": "#855900", // 5 on base+3
+  "base+4": "#FAF2E0", // brwhite
+  "darkYellow": "#855900", // 5 on base+3, 5.68 on base+4
   "yellow": "#b58900", // solarized
   "brightYellow": "#F1A000", // 7.75 on base-4
   "brightYellowOnBlue": "#F0A800", // 7.75 on base04
-
-  "darkOrange": "#B03818", // 5 on base+3
+  "darkOrange": "#A0480D", // 5 on base+3, 5.68 on base+4
   "orange": "#cb4b16", // solarized
   "brightOrange": "#FF8834", // 7 on base-4
   "brightOrangeOnBlue": "#FF9040", // 7 on base04
-
-  "darkRed": "#c41008", // 5 on base+3
+  "darkRed": "#c41008", // 5 on base+3, 5.68 on base+4
   "red": "#dc322f", // solarized
   "brightRed": "#FF8383", // 7 on base-4
   "brightRedOnBlue": "#FF8B8B", // 7 on base04
-
-  "darkMagenta": "#B2079F", // 5 on base+3
+  "darkMagenta": "#B01D90", // 5 on base+3, 5.68 on base+4
   "magenta": "#C10078", // solarized
   "brightMagenta": "#F07BF2", // 7 on base-4
   "brightMagentaOnBlue": "#FA7CF9", // 7 on base04
-
-  "darkViolet": "#7650A0", // 5 on base+3
+  "darkViolet": "#6c50b1", // 5 on base+3, 5.68 on base+4
   "violet": "#6c71c4", // solarized
   "brightViolet": "#A0A0F4", // 7 on base-4
   "brightVioletOnBlue": "#B7A0F1", // 7 on base04
-
-  "darkBlue": "#205ACF", // 5 on base+3
+  "darkBlue": "#0060BF", // 5 on base+3, 5.68 on base+4
   "blue": "#268bd2", // solarized
   "brightBlue": "#38B0FF", // 7 on base-4
   "brightBlueOnBlue": "#0AB8FF", // 7 on base04
-
-  "darkCyan": "#006B82", // 5 on base+3
+  "darkCyan": "#006E67", // 5 on base+3, 5.68 on base+4
   "cyan": "#2aa198", // solarized
   "brightCyan": "#00BCB0", // 7 on base-4
   "brightCyanOnBlue": "#27C0B8", // 7 on base04
-
-  "darkGreen": "#316F20", // 5 on base+3
+  "darkGreen": "#486C00", // 5 on base+3, 5.68 on base+4
   "green": "#859900", // solarized
   "brightGreen": "#83B800", // 7 on base-4
   "brightGreenOnBlue": "#85BD2F", // 7 on base04
-
   "white": "#FFFFFF",
   "black": "#000000"
 }
