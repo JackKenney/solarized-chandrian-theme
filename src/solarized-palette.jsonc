@@ -30,15 +30,15 @@
   "brightRedOnBlue": "#FF8B8B", // 7 on base04
   "darkMagenta": "#B01D90", // 5 on base+3, 5.68 on base+4
   "magenta": "#C10078", // solarized
-  "brightMagenta": "#F07BF2", // 7 on base-4
+  "brightMagenta": "#FF6CFE", // 7 on base-4
   "brightMagentaOnBlue": "#FA7CF9", // 7 on base04
   "darkViolet": "#6c50b1", // 5 on base+3, 5.68 on base+4
   "violet": "#6c71c4", // solarized
-  "brightViolet": "#A0A0F4", // 7 on base-4
+  "brightViolet": "#B298FF", // 7 on base-4
   "brightVioletOnBlue": "#B7A0F1", // 7 on base04
   "darkBlue": "#0060BF", // 5 on base+3, 5.68 on base+4
   "blue": "#268bd2", // solarized
-  "brightBlue": "#38B0FF", // 7 on base-4
+  "brightBlue": "#48AFFD", // 7 on base-4
   "brightBlueOnBlue": "#0AB8FF", // 7 on base04
   "darkCyan": "#006E67", // 5 on base+3, 5.68 on base+4
   "cyan": "#2aa198", // solarized
