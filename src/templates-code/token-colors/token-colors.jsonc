@@ -4,12 +4,19 @@
             "foreground": "{{structural}}",
         },
         "scope": [
+            "meta.brace.round",
+            "meta.brace.square",
+            "variable.language.this",
+            "variable.language.this.php",
+            "variable.language.this punctuation.definition.variable",
             "source.css punctuation.definition.attribute-selector",
             "source.css punctuation.definition.entity.begin.bracket.square",
             "source.css punctuation.definition.entity.end.bracket.square",
             "source.css punctuation.definition.attribute-selector",
             "source.css punctuation.definition.entity.begin.bracket.square",
             "source.css punctuation.definition.entity.end.bracket.square",
+            "punctuation.section.property-list.begin.bracket",
+            "punctuation.section.property-list.end.bracket",
             "punctuation.separator.annotation", //-> in python
             "punctuation.definition.arguments",
             "punctuation.definition.parameters",
@@ -116,7 +123,6 @@
             "meta.link.inet.markdown markup.underline.link.markdown",
             "constant.other.reference.link.markdown",
             "markup.inline.raw.string.markdown",
-            "punctuation.definition.variable", //$ in $this
             "meta.attribute.href.html string.quoted.double.html",
             "meta.attribute.action.html string.quoted.double.html",
             "meta.attribute.href.html punctuation.definition.string",
@@ -130,12 +136,24 @@
             "source.css keyword.operator.logical.only.media",
             "source.css keyword.control.at-rule", //@extend .foo
             "source.css entity.name.function", //@mixin foo()
-            "source.css entity.other.attribute-name.class.mixin",
             "source.css punctuation.definition.variable", //@
             "source.css entity.other.attribute-name.parent-selector punctuation.definition",
             "source.css meta.selector",
             "punctuation.definition.begin.bracket",
-            "punctuation.definition.end.bracket"
+            "punctuation.definition.end.bracket",
+            "source.css entity.other.attribute-name.id",
+            "source.css entity.other.attribute-name.class",
+            "source.css entity.other.attribute-name.class.mixin",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.class.mixin.css",
+            "entity.other.attribute-name.class.css",
+            "entity.other.attribute-name.class.mixin.css",
+            "entity.other.attribute-name.id.css",
+            "entity.other.attribute-name.parent-selector.css",
+            "entity.other.attribute-name.pseudo-class.css",
+            "entity.other.attribute-name.pseudo-element.css",
+            "source.css.less entity.other.attribute-name.id",
+            "entity.other.attribute-name.scss",
         ],
     },
     {
@@ -143,25 +161,15 @@
             "foreground": "{{variable}}"
         },
         "scope": [
+            "punctuation.definition.variable", //$ in php vars
             "source.css meta.definition.variable variable",
             "source.css variable",
             "source.css variable.other",
             "variable.language",
             "log.date",
             "punctuation.separator.dictionary.pair.json",
-            "meta.tag.structure entity.name.tag",
-            "meta.tag.block.any",
-            "meta.tag.structure.select entity.name.tag",
-            "meta.tag.structure.textarea entity.name.tag",
-            "meta.tag.structure.input entity.name.tag",
-            "meta.tag.structure.button entity.name.tag",
-            "meta.tag.inline.a",
-            "meta.tag.structure.svg entity.name.tag",
-            "meta.tag.object.img entity.name.tag",
             "meta.attribute.id.html punctuation.definition.string",
             "source.css entity.other.attribute-name",
-            "meta.tag.other.unrecognized",
-            "meta.tag.inline entity.name.tag meta.tag.structure entity.name.tag",
             "heading.1.markdown",
             "heading.2.markdown",
             "heading.3.markdown",
@@ -191,11 +199,6 @@
             "entity.name.label",
             "entity.name.operator.custom-literal",
             "entity.name.operator",
-            "entity.name.tag.css",
-            "entity.name.tag",
-            "entity.other.attribute-name.class.css",
-            "entity.other.attribute-name.class.mixin.css",
-            "entity.other.attribute-name.id.css",
             "entity.other.attribute-name.parent-selector.css",
             "entity.other.attribute-name.pseudo-class.css",
             "entity.other.attribute-name.pseudo-element.css",
@@ -237,8 +240,6 @@
             "source.css.less entity.other.attribute-name.id",
             "source.groovy.embedded",
             "strong",
-            "meta.brace.round",
-            "meta.brace.square",
             "meta.diff.header",
             "meta.embedded",
             "meta.preprocessor.numeric",
@@ -259,9 +260,6 @@
             "punctuation.terminator",
             "punctuation.separator",
             "punctuation",
-            "punctuation.section.embedded.begin.php",
-            "punctuation.section.embedded.end.php",
-            "punctuation.definition.tag",
             "punctuation.separator.arguments",
         ],
     },
@@ -271,6 +269,8 @@
             "fontStyle": "italic"
         },
         "scope": [
+            "string.docstring",
+            "string.docstring punctuation.definition.string",
             "comment.block.documentation", //@param
             "comment.line",
             "comment.block.documentation other.description", // variable description
@@ -306,7 +306,7 @@
             "comment.block.documentation variable.other" //variable name in jsdoc
         ],
         "settings": {
-            "foreground": "{{yellow}}",
+            "foreground": "{{textMild}}",
             "fontStyle": "italic"
         }
     },
@@ -316,16 +316,9 @@
         },
         "scope": [
             "string",
+            "string.template",
             "string.quoted",
             "punctuation.definition.string",
-            "entity.other.attribute-name.class.css",
-            "entity.other.attribute-name.class.mixin.css",
-            "entity.other.attribute-name.id.css",
-            "entity.other.attribute-name.parent-selector.css",
-            "entity.other.attribute-name.pseudo-class.css",
-            "entity.other.attribute-name.pseudo-element.css",
-            "source.css.less entity.other.attribute-name.id",
-            "entity.other.attribute-name.scss",
             "meta.preprocessor.string",
             "string.value",
             "string.tag",
@@ -363,6 +356,31 @@
             // "punctuation.definition.string.begin.html",
             // "punctuation.definition.string.end.html",
             "string.regexp",
+        ],
+    },
+    {
+        "settings": {
+            "foreground": "{{interpolated}}"
+        },
+        "scope": [
+            "punctuation.definition.template-expression.begin",
+            "punctuation.definition.template-expression.end",
+            "punctuation.section.embedded",
+            "meta.template.expression",
+            "string.interpolated",
+            "meta.fstring",
+            "keyword.other.substitution.begin",
+            "keyword.other.substitution.end",
+            "keyword.other.template.begin",
+            "keyword.other.template.end",
+            "meta.attribute.class.html string.quoted.double.html",
+            "meta.attribute.style.html string.quoted.double.html source.css",
+            // ,"meta.attribute.id.html string.quoted.double.html",
+            "meta.attribute.class.html punctuation.definition.string",
+            "meta.attribute.style.html punctuation.definition.string source.css-ignored-vscode",
+            "meta.attribute.style.html punctuation.definition.string",
+            // ,"meta.attribute.id.html punctuation.definition.string",
+            "source.css variable.other.interpolation",
         ],
     },
     {
@@ -425,7 +443,9 @@
             "meta.property.object",
             "meta.structure.dictionary.key.python",
             "source.powershell variable.other.member",
+            "variable.other.constant.property",
             "variable.other.enummember",
+            "variable.other.object.property",
             "variable.other.object.property.cs variable.other.object",
             "variable.other.object.property variable.other.object",
             "variable.other.property.static",
@@ -433,7 +453,6 @@
             "constant.other.object.key", //What's this?
             "meta.tag.metadata.script",
             "entity.other.attribute-name",
-            "entity.name.tag.yaml",
             "keyword.other.definition.ini",
             "source.css keyword.control.at-rule.import",
             "source.css keyword.control.at-rule punctuation.definition",
@@ -448,7 +467,7 @@
             "support.type.property-name.json",
             "support.type.vendored.property-name",
             "source.css support.type.property-name",
-            "source.css meta.property-list entity.name.tag", //otherwise colors cursor and content
+            // "source.css meta.property-list entity.name.tag", //otherwise colors cursor and content
             "meta.jsx entity.other.attribute-name",
             "source.js entity.other.attribute-name",
         ]
@@ -472,11 +491,10 @@
             "keyword.other.special-method", //private_class_method in rb
             "meta.definition.method",
             "entity.name.function", //function definition
+            "entity.name.command",
             "support.function", //.keys, .forEach, require
             "support.function.builtin",
             "support.function.node",
-            "source.css entity.other.attribute-name.id",
-            "source.css entity.other.attribute-name.class",
         ],
     },
     {
@@ -519,6 +537,7 @@
             "foreground": "{{variable}}"
         },
         "scope": [
+            "meta.function.definition",
             "variable.other.object",
             "variable.other.constant",
             "variable.other.normal.shell",
@@ -548,6 +567,7 @@
             "foreground": "{{interfaces}}"
         },
         "scope": [
+            "entity.name.scope-resolution",
             "meta.function",
             "meta.class.js",
             "support.class",
@@ -559,7 +579,6 @@
             "entity.other.inherited-class",
             "meta.tag.custom",
             "meta.jsx meta.tag support.class.component",
-            "source.css entity.name.tag",
             "source.css meta.at-rule.extend",
             "source.css entity.other.attribute-name.pseudo-class",
             "source.css entity.other.attribute-name.pseudo-element"
@@ -570,6 +589,8 @@
             "foreground": "{{types}}"
         },
         "scope": [
+            "keyword.type",
+            "keyword.other.type",
             "meta.class meta.method meta.var storage.type", //var, const etc
             "meta.class meta.method.declaration storage.type",
             "support.class",
@@ -603,9 +624,11 @@
             "foreground": "{{action}}"
         },
         "scope": [
-            "keyword.operator.class", //-> in php
+            "punctuation.section.embedded.begin.php", // <?php
+            "punctuation.section.embedded.end.php", // ?>
             "keyword.operator.delete",
             "keyword.operator.minus.exponent",
+            "keyword.operator.expression.new",
             "keyword.operator.new",
             "keyword.operator.noexcept",
             "keyword.operator.plus.exponent",
@@ -616,39 +639,14 @@
     },
     {
         "settings": {
-            "foreground": "{{interpolated}}"
-        },
-        "scope": [
-            "punctuation.definition.template-expression.begin",
-            "punctuation.definition.template-expression.end",
-            "punctuation.section.embedded",
-            "meta.template.expression",
-            "string.template",
-            "string.interpolated",
-            "meta.fstring",
-            "keyword.other.substitution.begin",
-            "keyword.other.substitution.end",
-            "keyword.other.template.begin",
-            "keyword.other.template.end",
-            "meta.attribute.class.html string.quoted.double.html",
-            "meta.attribute.style.html string.quoted.double.html source.css",
-            // ,"meta.attribute.id.html string.quoted.double.html",
-            "meta.attribute.class.html punctuation.definition.string",
-            "meta.attribute.style.html punctuation.definition.string source.css-ignored-vscode",
-            "meta.attribute.style.html punctuation.definition.string",
-            // ,"meta.attribute.id.html punctuation.definition.string",
-            "source.css variable.other.interpolation",
-        ],
-    },
-    {
-        "settings": {
-            "foreground": "{{commentGray}}"
+            "foreground": "{{textMild}}"
         },
         "scope": [
             "punctuation",
             "meta.brace",
             "punctuation.terminator",
             "punctuation.separator",
+            "keyword.operator.class", //-> in php
             "meta.delimiter"
         ],
     },
@@ -657,27 +655,39 @@
             "foreground": "{{tag}}"
         },
         "scope": [
+            "entity.name.tag",
+            "meta.tag",
+            "entity.name.tag",
+            "punctuation.definition.tag",
+            "meta.tag.block.any",
+            "meta.tag.other.unrecognized",
+            "meta.tag.structure entity.name.tag",
+            "meta.tag.structure.select entity.name.tag",
+            "meta.tag.structure.textarea entity.name.tag",
+            "meta.tag.structure.input entity.name.tag",
+            "meta.tag.structure.button entity.name.tag",
+            "meta.tag.inline.a",
+            "meta.tag.structure.svg entity.name.tag",
+            "meta.tag.object.img entity.name.tag",
+            "meta.tag.inline entity.name.tag meta.tag.structure entity.name.tag",
             "meta.tag.inline entity.name.tag",
             "meta.tag.structure.label entity.name.tag",
             "meta.tag.object.img entity.name.tag",
             "meta.tag.metadata.doctype",
             "text.html punctuation.section.embedded",
-            "punctuation.definition.tag",
-            "punctuation.definition.tag source.css", //Otherwise matches < in </style>
             "meta.jsx meta.tag",
             "source.js meta.tag",
-            "meta.jsx meta.tag punctuation.definition.tag",
             "source.css entity.name.tag.reference" //&
         ],
     },
     {
+        "scope": [
+            "markup.bold.markdown",
+        ],
         "settings": {
             "foreground": "{{textMostIntense}}",
             "fontStyle": "bold"
         },
-        "scope": [
-            "markup.bold.markdown",
-        ]
     },
     {
         "scope": [
@@ -690,10 +700,10 @@
     },
     {
         "scope": [
-            "markup.fenced_code.block",
+            "markup.fenced_code.block", // ```bash
         ],
         "settings": {
-            "foreground": "{{keywordGray}}"
+            "foreground": "{{yellow}}"
         }
     },
     {

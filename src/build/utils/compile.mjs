@@ -326,7 +326,7 @@ export default class Compiler {
       types: scheme.violet, // brown-ish red, types, annotation, Type
       type: scheme.violet,
       value: scheme.green,
-      tag: scheme.cyan,
+      tag: scheme.yellow,
       important: scheme.orange,
       variable: scheme.textIntense,
       variableSpecial: scheme.cyan,
