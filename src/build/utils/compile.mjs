@@ -283,6 +283,7 @@ export default class Compiler {
   /** affords unified schemes across ides */
   addSymbolColorsToScheme = (scheme) => {
     const joiner = {
+      action: scheme.orange,
       attributes: scheme.violet, // grayish purple
       booleans: scheme.magenta,
       class: scheme.violet,
@@ -292,6 +293,7 @@ export default class Compiler {
       decoration: scheme.magenta,
       deprecated: scheme.textMild,
       entity: scheme.blue,
+      error: scheme.red,
       exit: scheme.orange, // return, throw
       escape: scheme.yellow,
       external: scheme.violet,
@@ -306,7 +308,7 @@ export default class Compiler {
       key: scheme.cyan,
       keys: scheme.cyan, //this.state.foo, json keys, bright purple
       keywordGray: scheme.gray,
-      macros: scheme.violet, // @gen, async
+      macros: scheme.magenta, // @gen, async
       mainMild: scheme.cyan,
       member: scheme.cyan,
       metadata: scheme.violet,
@@ -341,7 +343,7 @@ export default class Compiler {
         string +
         Math.floor(
           parseInt(background.substr(start, 2), 16) * (1 - alpha) +
-            parseInt(foreground.substr(start, 2), 16) * alpha
+          parseInt(foreground.substr(start, 2), 16) * alpha
         ).toString(16),
       ""
     );
@@ -381,9 +383,9 @@ export default class Compiler {
         outputFile,
         JSON.stringify(contents, null, 2),
         "utf8",
-        () => {}
+        () => { }
       );
-    else fs.writeFile(outputFile, contents, "utf8", () => {});
+    else fs.writeFile(outputFile, contents, "utf8", () => { });
 
     console.log("Writing", outputFile);
     return fileName;

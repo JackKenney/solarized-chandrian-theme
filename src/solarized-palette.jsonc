@@ -40,7 +40,7 @@
   "blue": "#268bd2", // solarized
   "brightBlue": "#48AFFD", // 7 on base-4
   "brightBlueOnBlue": "#0AB8FF", // 7 on base04
-  "darkCyan": "#006E67", // 5 on base+3, 5.68 on base+4
+  "darkCyan": "#006B81", // 5 on base+3, 5.68 on base+4
   "cyan": "#2aa198", // solarized
   "brightCyan": "#00BCB0", // 7 on base-4
   "brightCyanOnBlue": "#27C0B8", // 7 on base04
@@ -51,7 +51,6 @@
   "white": "#FFFFFF",
   "black": "#000000"
 }
-
 /** Reference: https://ethanschoonover.com/solarized/
 
 SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      RGB         HSB

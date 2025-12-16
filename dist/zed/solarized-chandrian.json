@@ -610,7 +610,7 @@
         "accents": [
           "#6c50b1",
           "#0060BF",
-          "#006E67",
+          "#006B81",
           "#486C00",
           "#855900",
           "#A0480D",
@@ -747,8 +747,8 @@
         "terminal.ansi.bright_blue": "#0060BF",
         "terminal.ansi.magenta": "#B01D90DD",
         "terminal.ansi.bright_magenta": "#B01D90",
-        "terminal.ansi.cyan": "#006E67DD",
-        "terminal.ansi.bright_cyan": "#006E67",
+        "terminal.ansi.cyan": "#006B81DD",
+        "terminal.ansi.bright_cyan": "#006B81",
         "terminal.ansi.white": "#FFFFFFDD",
         "terminal.ansi.bright_white": "#FFFFFF",
         "text": "#252526",
@@ -814,7 +814,7 @@
             "color": "#855900"
           },
           "label": {
-            "color": "#006E67"
+            "color": "#006B81"
           },
           "link_text": {
             "color": "#0060BF"
@@ -838,7 +838,7 @@
             "color": "#2b2b2b"
           },
           "property": {
-            "color": "#006E67"
+            "color": "#006B81"
           },
           "punctuation": {
             "color": "#2b2b2b"
