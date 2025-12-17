@@ -157,6 +157,36 @@
         ],
     },
     {
+        // punctuation
+        "settings": {
+            "foreground": "{{text}}",
+        },
+        "scope": [
+            "meta.brace.round",
+            "meta.brace.square",
+            "source.css punctuation.definition.attribute-selector",
+            "source.css punctuation.definition.entity.begin.bracket.square",
+            "source.css punctuation.definition.entity.end.bracket.square",
+            "source.css punctuation.section.function.begin.bracket.round",
+            "source.css punctuation.section.function.end.bracket.round", //assuming :not is primary case
+            "punctuation.section.property-list.begin.bracket",
+            "punctuation.section.property-list.end.bracket",
+            "punctuation.definition.arguments",
+            "punctuation.definition.parameters",
+            "punctuation.definition",
+            "punctuation.definition.block", //{} in tsx
+            "punctuation.definition.dictionary.begin.json", //{
+            "punctuation.definition.dictionary.end.json", // }
+            "punctuation.section.function.begin",
+            "punctuation.section.function.end",
+            "punctuation.separator.colon.python",
+            "source.css support.function.any-method.builtin",
+            "source.css meta.function.variable", //var()
+            "punctuation.definition.begin.bracket",
+            "punctuation.definition.end.bracket"
+        ],
+    },
+    {
         "settings": {
             "foreground": "{{variable}}"
         },
