@@ -236,7 +236,7 @@
       "color": "{{text}}"
     },
     "punctuation.bracket": {
-      "color": "{{yellow}}"
+      "color": "{{text}}"
     },
     "punctuation.delimiter": {
       "color": "{{textMild}}"
