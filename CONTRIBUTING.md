@@ -67,3 +67,5 @@ NOTE: You may now need to refresh the theme with its defaults:
 ## Resources
 
 - https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/themes/metadata/IntelliJPlatform.themeMetadata.json
+- https://github.com/zed-industries/zed/discussions/13631
+- https://github.com/zed-industries/zed/blob/03d8e54fd4e46ba4837bda5b4dcb0e49507c1634/docs/src/extensions/languages.md#syntax-highlighting

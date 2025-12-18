@@ -167,7 +167,7 @@
       "color": "{{yellow}}"
     },
     "boolean": {
-      "color": "{{magenta}}"
+      "color": "{{boolean}}"
     },
     "comment": {
       "color": "{{commentGray}}"
@@ -176,13 +176,13 @@
       "color": "{{commentGray}}"
     },
     "constant": {
-      "color": "{{magenta}}"
+      "color": "{{constant}}"
     },
     "constant.builtin": {
-      "color": "{{magenta}}"
+      "color": "{{constant}}"
     },
     "constructor": {
-      "color": "{{violet}}"
+      "color": "{{constructor}}"
     },
     "embedded": {
       "color": "{{textMild}}"
@@ -194,31 +194,31 @@
       "color": "{{textMostIntense}}"
     },
     "enum": {
-      "color": "{{magenta}}"
+      "color": "{{enum}}"
     },
     "function": {
-      "color": "{{blue}}"
+      "color": "{{function}}"
     },
     "hint": {
-      "color": "{{violet}}"
+      "color": "{{hint}}"
     },
     "keyword": {
-      "color": "{{yellow}}"
+      "color": "{{keyword}}"
     },
     "label": {
-      "color": "{{cyan}}"
+      "color": "{{key}}"
     },
     "link_text": {
-      "color": "{{blue}}"
+      "color": "{{link}}"
     },
     "link_uri": {
-      "color": "{{blue}}"
+      "color": "{{link}}"
     },
     "number": {
-      "color": "{{magenta}}"
+      "color": "{{number}}"
     },
     "operator": {
-      "color": "{{yellow}}"
+      "color": "{{operator}}"
     },
     "predictive": {
       "color": "{{violet}}88"
@@ -230,7 +230,7 @@
       "color": "{{text}}"
     },
     "property": {
-      "color": "{{cyan}}"
+      "color": "{{property}}"
     },
     "punctuation": {
       "color": "{{text}}"
@@ -245,30 +245,30 @@
       "color": "{{textMostIntense}}"
     },
     "punctuation.special": {
-      "color": "{{yellow}}"
+      "color": "{{operator}}"
     },
     "string": {
-      "color": "{{green}}"
+      "color": "{{string}}"
     },
     "string.escape": {
-      "color": "{{yellow}}",
+      "color": "{{escape}}",
       "font_style": "italic"
     },
     "string.regex": {
-      "color": "{{yellow}}"
+      "color": "{{regex}}"
     },
     "string.special": {
-      "color": "{{text}}"
+      "color": "{{interpolation}}"
     },
     "string.special.symbol": {
-      "color": "{{yellow}}",
+      "color": "{{interpolation}}",
       "font_style": "italic"
     },
     "tag": {
-      "color": "{{yellow}}"
+      "color": "{{tag}}"
     },
     "tag.doctype": {
-      "color": "{{violet}}"
+      "color": "{{type}}"
     },
     "text.literal": {
       "color": "{{text}}"
@@ -277,20 +277,20 @@
       "color": "{{textIntense}}"
     },
     "type": {
-      "color": "{{violet}}"
+      "color": "{{type}}"
     },
     "variable": {
-      "color": "{{textMostIntense}}"
+      "color": "{{variable}}"
     },
     "variable.builtin": {
-      "color": "{{yellow}}"
+      "color": "{{variable}}"
     },
     "variable.special": {
-      "color": "{{yellow}}",
+      "color": "{{variable}}",
       "font_style": "italic"
     },
     "variant": {
-      "color": "{{blue}}"
+      "color": "{{variant}}"
     }
   }
 }

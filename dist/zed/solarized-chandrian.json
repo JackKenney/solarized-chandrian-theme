@@ -266,7 +266,7 @@
             "color": "#F1A000"
           },
           "string.special": {
-            "color": "#beb8a5"
+            "color": "#F1A000"
           },
           "string.special.symbol": {
             "color": "#F1A000",
@@ -288,13 +288,13 @@
             "color": "#B298FF"
           },
           "variable": {
-            "color": "#eee8d5"
+            "color": "#ded8c5"
           },
           "variable.builtin": {
-            "color": "#F1A000"
+            "color": "#ded8c5"
           },
           "variable.special": {
-            "color": "#F1A000",
+            "color": "#ded8c5",
             "font_style": "italic"
           },
           "variant": {
@@ -566,7 +566,7 @@
             "color": "#F0A800"
           },
           "string.special": {
-            "color": "#beb8a5"
+            "color": "#F0A800"
           },
           "string.special.symbol": {
             "color": "#F0A800",
@@ -588,13 +588,13 @@
             "color": "#B7A0F1"
           },
           "variable": {
-            "color": "#eee8d5"
+            "color": "#ded8c5"
           },
           "variable.builtin": {
-            "color": "#F0A800"
+            "color": "#ded8c5"
           },
           "variable.special": {
-            "color": "#F0A800",
+            "color": "#ded8c5",
             "font_style": "italic"
           },
           "variant": {
@@ -866,7 +866,7 @@
             "color": "#855900"
           },
           "string.special": {
-            "color": "#2b2b2b"
+            "color": "#855900"
           },
           "string.special.symbol": {
             "color": "#855900",
@@ -888,13 +888,13 @@
             "color": "#6c50b1"
           },
           "variable": {
-            "color": "#1e1e1e"
+            "color": "#252526"
           },
           "variable.builtin": {
-            "color": "#855900"
+            "color": "#252526"
           },
           "variable.special": {
-            "color": "#855900",
+            "color": "#252526",
             "font_style": "italic"
           },
           "variant": {

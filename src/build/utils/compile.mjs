@@ -285,20 +285,27 @@ export default class Compiler {
     const joiner = {
       action: scheme.orange,
       attributes: scheme.violet, // grayish purple
+      boolean: scheme.magenta,
       booleans: scheme.magenta,
+      bracket: scheme.blue,
+      bracketSquare: scheme.blue,
+      bracketRound: scheme.blue,
+      bracketCurly: scheme.yellow,
       class: scheme.violet,
+      constructor: scheme.violet,
       commentGray: scheme.gray,
       commentGrayProminent: scheme.gray,
       constant: scheme.magenta,
       decoration: scheme.magenta,
       deprecated: scheme.textMild,
       entity: scheme.blue,
+      enum: scheme.magenta,
       error: scheme.red,
       exit: scheme.orange, // return, throw
       escape: scheme.yellow,
       external: scheme.violet,
-      functions: scheme.blue, // doers
       function: scheme.blue, // doers
+      functions: scheme.blue, // doers
       global: scheme.violet,
       hint: scheme.violet,
       injection: scheme.injectionBackground,
@@ -307,12 +314,15 @@ export default class Compiler {
       interpolation: scheme.yellow,
       key: scheme.cyan,
       keys: scheme.cyan, //this.state.foo, json keys, bright purple
+      keyword: scheme.yellow,
       keywordGray: scheme.gray,
+      link: scheme.blue,
       macros: scheme.magenta, // @gen, async
       mainMild: scheme.cyan,
       member: scheme.cyan,
       metadata: scheme.violet,
       number: scheme.magenta,
+      operator: scheme.yellow,
       property: scheme.cyan,
       parenthesis: scheme.blue,
       punctuation_important: scheme.textMostIntense,
@@ -323,6 +333,7 @@ export default class Compiler {
       string: scheme.green,
       strings: scheme.green,
       subtypes: scheme.violet, // brown-ish red, types, annotation, Type
+      tag: scheme.yellow, // <div>
       types: scheme.violet, // brown-ish red, types, annotation, Type
       type: scheme.violet,
       value: scheme.green,
@@ -330,6 +341,7 @@ export default class Compiler {
       important: scheme.orange,
       variable: scheme.textIntense,
       variableSpecial: scheme.cyan,
+      variant: scheme.blue,
       warn: scheme.yellow,
     };
 
