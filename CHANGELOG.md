@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.7.x
+
+- update IDEA theme to fix text that is too low contrast
+- VSCode token unification for better parity across languages
+
 ## 2.5.x
 
 - use traditional solarized light most-intense background for improved contrast
