@@ -103,7 +103,7 @@
       "iconColor": "{{textMild}}",
       "inactiveErrorFocusColor": "{{red}}",
       "inactiveWarningFocusColor": "{{yellow}}",
-      "infoForeground": "{{backgroundMostMild}}",
+      "infoForeground": "{{text}}",
       "warningFocusColor": "{{yellow}}AA"
     },
     "Counter": {
@@ -230,7 +230,7 @@
       "separatorColor": "{{backgroundMild}}"
     },
     "GutterTooltip": {
-      "infoForeground": "{{backgroundMild}}",
+      "infoForeground": "{{text}}",
       "lineSeparatorColor": "{{background}}"
     },
     "HelpTooltip": {
@@ -244,8 +244,8 @@
     },
     "Label": {
       "errorForeground": "{{red}}",
-      "infoForeground": "{{textMostMild}}",
-      "selectedForeground": "{{text}}",
+      "infoForeground": "{{text}}",
+      "selectedForeground": "{{textIntense}}",
       "successForeground": "{{cyan}}"
     },
     "Lesson": {
